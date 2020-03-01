@@ -40,7 +40,8 @@ int main(void)
         
         
         PWR_UltraLowPowerCmd(ENABLE);//超低功耗
-
+        
+      
          enableInterrupts(); //开启总中断  
        
 	while(1)
@@ -66,13 +67,17 @@ void HardWare_Init(void)
 
 void SX1278_SEND(void)
 {
+      u8 buf;
        HardWare_Init();
      // Convert_MAX44009();    //采集数据BH1750光照数据
   
 
       
       u8  si4432_Send[24] = {"河南兵峰电子科技有限公司"};//teset
-      
+      buf = SPIReadOneByteFromAddress(REG_LR_FRFMSB);
+      if(buf != 0x6c){
+        while(1);
+      }
       SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器 
       Sx1278SendPacket(si4432_Send, 24);
       SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器

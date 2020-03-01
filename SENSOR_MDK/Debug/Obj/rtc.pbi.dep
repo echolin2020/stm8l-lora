@@ -1,41 +1,42 @@
-rtc.pbi: D:\stm8L\send\system\rtc.c D:\stm8L\send\system/rtc.h \
-  D:\stm8L\send\SENSOR_MDK\..\CMSIS\stm8l15x.h \
-  D:\stm8L\send\SENSOR_MDK\..\CMSIS/stm8l15x_conf.h \
-  D:\stm8L\send\SENSOR_MDK\..\CMSIS/stm8l15x.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
-  D:\stm8L\send\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
+rtc.pbi: D:\stm8L\send\stm8l-lora\system\rtc.c \
+  D:\stm8L\send\stm8l-lora\system/rtc.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\CMSIS\stm8l15x.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\CMSIS/stm8l15x_conf.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\CMSIS/stm8l15x.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
   D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  D:\stm8L\send\SENSOR_MDK\..\Components\LightSensor\LightSensor.h \
-  D:\stm8L\send\SENSOR_MDK\..\Components\USART\usart.h \
-  D:\stm8L\send\system\delay.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\Components\LightSensor\LightSensor.h \
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\Components\USART\usart.h \
+  D:\stm8L\send\stm8l-lora\system\delay.h \
   D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
   D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
@@ -48,4 +49,4 @@ rtc.pbi: D:\stm8L\send\system\rtc.c D:\stm8L\send\system/rtc.h \
   D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdarg.h \
   D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
   D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
-  D:\stm8L\send\SENSOR_MDK\..\Components\SX1278\SX1278.h
+  D:\stm8L\send\stm8l-lora\SENSOR_MDK\..\Components\SX1278\SX1278.h

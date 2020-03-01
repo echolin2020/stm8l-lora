@@ -506,10 +506,13 @@ void Sx1278LoRaInit(void)
     Version = SPIReadOneByteFromAddress(REG_LR_VERSION);//读取版本号
     SX1276LoRaSetRFFrequency();                          //频率设置
     SX1276LoRaSetRFPower(7);                             //设置发射功率为最大
-    SX1276LoRaSetSpreadingFactor(SpreadingFactor[5]);	 //扩频因子设置  12
-    SX1276LoRaSetErrorCoding(CodingRate[1]);		 //有效数据比 4
+    //SX1276LoRaSetSpreadingFactor(SpreadingFactor[0]);	 //扩频因子设置   {7,8,9,10,11,12}; 扩频因子7-12
+    SX1276LoRaSetSpreadingFactor(7);
+    //SX1276LoRaSetErrorCoding(CodingRate[1]);		 //有效数据比 4/6
+    SX1276LoRaSetErrorCoding(2);
     SX1276LoRaSetPacketCrcOn(true);			 //CRC 校验打开
-    SX1276LoRaSetSignalBandwidth(Bw_Frequency[7]);	 //设置扩频带宽   125KHZ
+    //SX1276LoRaSetSignalBandwidth(Bw_Frequency[8]);	 //设置扩频带宽   250KHZ
+    SX1276LoRaSetSignalBandwidth(8);
     SX1276LoRaSetImplicitHeaderOn(false);		 //同步头是显性模式
     SX1276LoRaSetPayloadLength(0xff);                    //设置负载字节长度256
     SX1276LoRaSetSymbTimeout(0x3FF);                     //设置接收超时时间,TimOut = SymbTimeout * ts

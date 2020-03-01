@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\stm8L\send\SENSOR_MDK\settings\SensorMdk.Debug.general.xcl" --backend -f "D:\stm8L\send\SENSOR_MDK\settings\SensorMdk.Debug.driver.xcl" 
+& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\stm8L\send\stm8l-lora\SENSOR_MDK\settings\SensorMdk.Debug.general.xcl" --backend -f "D:\stm8L\send\stm8l-lora\SENSOR_MDK\settings\SensorMdk.Debug.driver.xcl" 
 }
 else
 {
-& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\stm8L\send\SENSOR_MDK\settings\SensorMdk.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\stm8L\send\SENSOR_MDK\settings\SensorMdk.Debug.driver.xcl" 
+& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\stm8L\send\stm8l-lora\SENSOR_MDK\settings\SensorMdk.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\stm8L\send\stm8l-lora\SENSOR_MDK\settings\SensorMdk.Debug.driver.xcl" 
 }
