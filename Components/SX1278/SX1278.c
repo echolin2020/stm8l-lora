@@ -89,7 +89,7 @@ void SPI_SX1278_Init()
                   0x07);
  	  
    
-	//SPI_Cmd(SPI1,DISABLE);	// 使能SPI  
+	SPI_Cmd(SPI1,ENABLE);	// 使能SPI  
        
 }
 void SPI_ENABLE (void)
@@ -145,8 +145,8 @@ void cmdSwitchEn(cmdEntype_t cmdcmd)
 unsigned char SPIWriteOneByte(unsigned char byte)
 {
 
-  // Loop while DR register in not emplty 
- // while (SPI_GetFlagStatus(SPI1, SPI_FLAG_TXE) == RESET);
+  // Loop while DR register if not empty 
+  while (SPI_GetFlagStatus(SPI1, SPI_FLAG_TXE) == RESET);
 
   // Send byte through the SPI1 peripheral 
  SPI_SendData(SPI1,byte);
@@ -314,6 +314,7 @@ void SX1276LoRaSetRFPower(unsigned char power)
 {
     SPIWriteOneByteToAddress(REG_LR_PADAC, 0x87);  //当OutputPower = 1111,，在PA_BOOST 上为+20dBm
     SPIWriteOneByteToAddress(REG_LR_PACONFIG,  power_data[power]);//当power = 7时，发射最大功率+20dBm
+    SPIWriteOneByteToAddress(REG_LR_PACONFIG,  0xFF);
 }
 
 /******************************************************************************
@@ -459,7 +460,7 @@ void SX1276LoRaSetPayloadLength(unsigned char value)
 * 输出参数  : 无
 * 返回值    : 无
 ******************************************************************************/	
-/*
+
 void SX1276LoRaSetPreamLength(unsigned int value)
 {
     unsigned char a[2];
@@ -468,7 +469,7 @@ void SX1276LoRaSetPreamLength(unsigned int value)
     SPIWriteOneByteToAddress(REG_LR_PREAMBLEMSB, a[0]);
     SPIWriteOneByteToAddress(REG_LR_PREAMBLELSB, a[1]);
 }
-*/
+
 /******************************************************************************
 * 函数名    : SX1276LoRaSetMobileNode
 * 函数描述  : 设置低速率优化
@@ -504,23 +505,26 @@ void Sx1278LoRaInit(void)
     SPIWriteOneByteToAddress(REG_LR_DIOMAPPING1,GPIO_VARE_1);//写入0x40寄存器，DIO引脚映射设置，设为00
     SPIWriteOneByteToAddress(REG_LR_DIOMAPPING2,GPIO_VARE_2);//写入0x41寄存器
     Version = SPIReadOneByteFromAddress(REG_LR_VERSION);//读取版本号
-    SX1276LoRaSetRFFrequency();                          //频率设置
-    SX1276LoRaSetRFPower(7);                             //设置发射功率为最大
+    //SX1276LoRaSetRFFrequency();                          //频率设置
+    SX1276LoRaSetRFPower(7);                             //设置发射功率为最大  直接赋值0xFF 设置为最大发射功率
     //SX1276LoRaSetSpreadingFactor(SpreadingFactor[0]);	 //扩频因子设置   {7,8,9,10,11,12}; 扩频因子7-12
     SX1276LoRaSetSpreadingFactor(7);
     //SX1276LoRaSetErrorCoding(CodingRate[1]);		 //有效数据比 4/6
     SX1276LoRaSetErrorCoding(2);
-    SX1276LoRaSetPacketCrcOn(true);			 //CRC 校验打开
+    SX1276LoRaSetPacketCrcOn(false);			 //CRC 校验打开
     //SX1276LoRaSetSignalBandwidth(Bw_Frequency[8]);	 //设置扩频带宽   250KHZ
     SX1276LoRaSetSignalBandwidth(8);
-    SX1276LoRaSetImplicitHeaderOn(false);		 //同步头是显性模式
-    SX1276LoRaSetPayloadLength(0xff);                    //设置负载字节长度256
+    SX1276LoRaSetImplicitHeaderOn(true);		 //同步头是显性模式  explicit header
+    SX1276LoRaSetPayloadLength(128);                    //设置负载字节长度256
     SX1276LoRaSetSymbTimeout(0x3FF);                     //设置接收超时时间,TimOut = SymbTimeout * ts
     SX1276LoRaSetMobileNode(true); 			 //低数据的优化 
-//     SPIWriteOneByteToAddress( REG_LR_PREAMBLEMSB, 0x00);//前导码
-//     SPIWriteOneByteToAddress( REG_LR_PREAMBLELSB, 0x15);
-    Sx1278ReceiveModeEnable();                           //进入接收模式
-    USART_SendStr("LORA 初始化配置完成\r\n");
+    //SX1276LoRaSetPreamLength(65535);
+    SPIWriteOneByteToAddress(REG_LR_PREAMBLEMSB, 0);
+    SPIWriteOneByteToAddress(REG_LR_PREAMBLELSB, 0xff);//maxmim preamble
+    //SPIWriteOneByteToAddress( REG_LR_PREAMBLEMSB, 0x00);//前导码
+    //SPIWriteOneByteToAddress( REG_LR_PREAMBLELSB, 0x15);
+    //Sx1278ReceiveModeEnable();                           //进入接收模式
+    //USART_SendStr("LORA 初始化配置完成\r\n");
 }
 
 /******************************************************************************
@@ -571,12 +575,13 @@ void Sx1278SendPacket(unsigned char *data,unsigned char len)
         if((RF_EX0_STATUS&0x08) == 0x08)
         {
             //发射完成后，应设置为接收模式，才能收到信号
-            SX1276LoRaSetOpMode(Stdby_mode);
-            SPIWriteOneByteToAddress(REG_LR_IRQFLAGSMASK,IRQN_RXD_Value);      //打开接收中断
-            SPIWriteOneByteToAddress(REG_LR_HOPPERIOD,   PACKET_MIAX_Value);//0x24寄存器，设置频率跳变周期最大
-            SPIWriteOneByteToAddress(REG_LR_DIOMAPPING1, 0X00);//端口映射恢复默认
-            SPIWriteOneByteToAddress(REG_LR_DIOMAPPING2, 0x00);
-            SX1276LoRaSetOpMode(Receiver_mode);
+            SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, RF_EX0_STATUS|0x08);
+//            SX1276LoRaSetOpMode(Stdby_mode);
+//            SPIWriteOneByteToAddress(REG_LR_IRQFLAGSMASK,IRQN_RXD_Value);      //打开接收中断
+//            SPIWriteOneByteToAddress(REG_LR_HOPPERIOD,   PACKET_MIAX_Value);//0x24寄存器，设置频率跳变周期最大
+//            SPIWriteOneByteToAddress(REG_LR_DIOMAPPING1, 0X00);//端口映射恢复默认
+//            SPIWriteOneByteToAddress(REG_LR_DIOMAPPING2, 0x00);
+//            SX1276LoRaSetOpMode(Receiver_mode);
             break;
         }
     }
