@@ -177,6 +177,7 @@ void Sx1278ReceiveModeEnable(void);
 void Sx1278CADReceiveModeEnable(void);
 void Sx1278SleepModeEnable(void);
 void Sx1278InteruptHandler(void);
+long SX1276GetFeiValue();
 
 unsigned char RF_SPI_READ_BYTE();
 

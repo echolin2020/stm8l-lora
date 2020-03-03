@@ -37,9 +37,10 @@ int main(void)
           
           while(1){    
       HardWare_Init();
-      u8  si4432_Send[24] = {"hello lora hello world"};//test
+      //u8  si4432_Send[24] = {"hello world hello lora"};//test
+      u8  si4432_Send[128] = {"hello world hello lora hello world hello lorahello world hello lora hello world hello lorahello world hello lora"};//test
       //SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器 
-      Sx1278SendPacket(si4432_Send, 24);
+      Sx1278SendPacket(si4432_Send, 128);
       //SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器
       SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);//清零所有标志位，所有的DIOx口都恢复低电平     
       SX1276LoRaSetOpMode(Sleep_mode);   

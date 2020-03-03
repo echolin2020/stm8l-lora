@@ -48232,13 +48232,41 @@
     "scope": null
   },
   {
+    "ID": "c:@F@SX1276GetFeiValue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long SX1276GetFeiValue(void)",
+    "location": {
+      "column": "6",
+      "line": "180",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
+    },
+    "name": "SX1276GetFeiValue",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SX1276GetFeiValue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long SX1276GetFeiValue(void)",
+    "location": {
+      "column": "6",
+      "line": "180",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
+    },
+    "name": "SX1276GetFeiValue",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@RF_SPI_READ_BYTE",
     "What": "Function",
     "defdec": "Dec",
     "display": "uint8_t RF_SPI_READ_BYTE(void)",
     "location": {
       "column": "15",
-      "line": "181",
+      "line": "182",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
     },
     "name": "RF_SPI_READ_BYTE",
@@ -48252,7 +48280,7 @@
     "display": "void SPI_ENABLE(void)",
     "location": {
       "column": "6",
-      "line": "183",
+      "line": "184",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
     },
     "name": "SPI_ENABLE",
@@ -48266,7 +48294,7 @@
     "display": "void SPI_ENABLE(void)",
     "location": {
       "column": "6",
-      "line": "183",
+      "line": "184",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
     },
     "name": "SPI_ENABLE",
@@ -48280,7 +48308,7 @@
     "display": "void SPI_DISABLE(void)",
     "location": {
       "column": "6",
-      "line": "184",
+      "line": "185",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
     },
     "name": "SPI_DISABLE",
@@ -48294,7 +48322,7 @@
     "display": "void SPI_DISABLE(void)",
     "location": {
       "column": "6",
-      "line": "184",
+      "line": "185",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
     },
     "name": "SPI_DISABLE",
@@ -48308,7 +48336,7 @@
     "display": "void cmdSwitchEn(cmdEntype_t)",
     "location": {
       "column": "6",
-      "line": "185",
+      "line": "186",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
     },
     "name": "cmdSwitchEn",
@@ -48322,7 +48350,7 @@
     "display": "void cmdSwitchEn(cmdEntype_t)",
     "location": {
       "column": "6",
-      "line": "185",
+      "line": "186",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.h"
     },
     "name": "cmdSwitchEn",
@@ -59168,377 +59196,13 @@
     "scope": null
   },
   {
-    "ID": "c:ycheck.h@533@macro@__INTRINSIC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__INTRINSIC",
-    "location": {
-      "column": "11",
-      "line": "21",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__INTRINSIC",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@1804@macro@__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
-    "location": {
-      "column": "11",
-      "line": "65",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@1879@macro@_YCHECK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YCHECK",
-    "location": {
-      "column": "9",
-      "line": "69",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "_YCHECK",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2491@macro@__EFF_NS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NS",
-    "location": {
-      "column": "9",
-      "line": "84",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2583@macro@__EFF_NSNW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NSNW1",
-    "location": {
-      "column": "9",
-      "line": "85",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NSNW1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2688@macro@__EFF_NE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NE",
-    "location": {
-      "column": "9",
-      "line": "86",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2767@macro@__EFF_NENR1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR1",
-    "location": {
-      "column": "9",
-      "line": "87",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2858@macro@__EFF_NENR1R1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR1R1",
-    "location": {
-      "column": "9",
-      "line": "88",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR1R1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@2960@macro@__EFF_NENR2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR2",
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3051@macro@__EFF_NENR1NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR1NW2",
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR1NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3155@macro@__EFF_NENR1NW2R1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENR1NW2R1",
-    "location": {
-      "column": "9",
-      "line": "91",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENR1NW2R1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3272@macro@__EFF_NENW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW1",
-    "location": {
-      "column": "9",
-      "line": "92",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENW1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3364@macro@__EFF_NENW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW2",
-    "location": {
-      "column": "9",
-      "line": "93",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3456@macro@__EFF_NENW2R1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW2R1",
-    "location": {
-      "column": "9",
-      "line": "94",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENW2R1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3559@macro@__EFF_NENW1NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW1NW2",
-    "location": {
-      "column": "9",
-      "line": "95",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NENW1NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3653@macro@__EFF_NR1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NR1",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NR1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3734@macro@__EFF_NR1NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NR1NW2",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NR1NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3828@macro@__EFF_NR1NW3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NR1NW3",
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NR1NW3",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@3922@macro@__EFF_NW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW1",
-    "location": {
-      "column": "9",
-      "line": "99",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NW1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4004@macro@__EFF_NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW2",
-    "location": {
-      "column": "9",
-      "line": "100",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4086@macro@__EFF_NW1NR2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW1NR2",
-    "location": {
-      "column": "9",
-      "line": "101",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NW1NR2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4180@macro@__EFF_NW1NW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW1NW2",
-    "location": {
-      "column": "9",
-      "line": "102",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__EFF_NW1NW2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4272@macro@__ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES",
-    "location": {
-      "column": "9",
-      "line": "107",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4329@macro@__ATTRIBUTES_CAN_THROW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES_CAN_THROW",
-    "location": {
-      "column": "9",
-      "line": "108",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__ATTRIBUTES_CAN_THROW",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4376@macro@__ATTRIBUTES_NORETURN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES_NORETURN",
-    "location": {
-      "column": "9",
-      "line": "109",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__ATTRIBUTES_NORETURN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@4444@macro@__ATTRIBUTES_NORETURN_CAN_THROW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES_NORETURN_CAN_THROW",
-    "location": {
-      "column": "9",
-      "line": "110",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
-    },
-    "name": "__ATTRIBUTES_NORETURN_CAN_THROW",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:@Frequency",
     "What": "Variable",
     "defdec": "Def",
     "display": "Frequency",
     "location": {
       "column": "17",
-      "line": "18",
+      "line": "19",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Frequency",
@@ -59552,7 +59216,7 @@
     "display": "power_data",
     "location": {
       "column": "17",
-      "line": "19",
+      "line": "20",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "power_data",
@@ -59566,7 +59230,7 @@
     "display": "SpreadingFactor",
     "location": {
       "column": "17",
-      "line": "20",
+      "line": "21",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SpreadingFactor",
@@ -59580,7 +59244,7 @@
     "display": "CodingRate",
     "location": {
       "column": "17",
-      "line": "21",
+      "line": "22",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "CodingRate",
@@ -59594,7 +59258,7 @@
     "display": "Bw_Frequency",
     "location": {
       "column": "17",
-      "line": "22",
+      "line": "23",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Bw_Frequency",
@@ -59608,7 +59272,7 @@
     "display": "recv",
     "location": {
       "column": "17",
-      "line": "23",
+      "line": "24",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "recv",
@@ -59622,7 +59286,7 @@
     "display": "RF_EX0_STATUS",
     "location": {
       "column": "17",
-      "line": "24",
+      "line": "25",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RF_EX0_STATUS",
@@ -59636,7 +59300,7 @@
     "display": "CRC_Value",
     "location": {
       "column": "17",
-      "line": "25",
+      "line": "26",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "CRC_Value",
@@ -59650,7 +59314,7 @@
     "display": "SX1278_RLEN",
     "location": {
       "column": "17",
-      "line": "26",
+      "line": "27",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1278_RLEN",
@@ -59664,7 +59328,7 @@
     "display": "void Delay_us(u8)",
     "location": {
       "column": "6",
-      "line": "46",
+      "line": "47",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Delay_us",
@@ -59672,13 +59336,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@2050@F@Delay_us@i",
+    "ID": "c:SX1278.c@2124@F@Delay_us@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "5",
-      "line": "48",
+      "line": "49",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "i",
@@ -59692,7 +59356,7 @@
     "display": "void SPI_SX1278_Init(void)",
     "location": {
       "column": "6",
-      "line": "61",
+      "line": "62",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SPI_SX1278_Init",
@@ -59706,7 +59370,7 @@
     "display": "void SPI_ENABLE(void)",
     "location": {
       "column": "6",
-      "line": "95",
+      "line": "96",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SPI_ENABLE",
@@ -59720,7 +59384,7 @@
     "display": "void SPI_DISABLE(void)",
     "location": {
       "column": "6",
-      "line": "105",
+      "line": "106",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SPI_DISABLE",
@@ -59734,7 +59398,7 @@
     "display": "void cmdSwitchEn(cmdEntype_t)",
     "location": {
       "column": "6",
-      "line": "115",
+      "line": "116",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "cmdSwitchEn",
@@ -59748,7 +59412,7 @@
     "display": "unsigned char SPIWriteOneByte(unsigned char)",
     "location": {
       "column": "15",
-      "line": "145",
+      "line": "146",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SPIWriteOneByte",
@@ -59762,7 +59426,7 @@
     "display": "void SPIWriteOneByteToAddress(u8, u8)",
     "location": {
       "column": "6",
-      "line": "169",
+      "line": "170",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SPIWriteOneByteToAddress",
@@ -59776,7 +59440,7 @@
     "display": "u8 SPIReadOneByteFromAddress(u8)",
     "location": {
       "column": "4",
-      "line": "187",
+      "line": "188",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SPIReadOneByteFromAddress",
@@ -59784,13 +59448,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@6223@F@SPIReadOneByteFromAddress@receivedata",
+    "ID": "c:SX1278.c@6297@F@SPIReadOneByteFromAddress@receivedata",
     "What": "Variable",
     "defdec": "Def",
     "display": "receivedata",
     "location": {
       "column": "8",
-      "line": "189",
+      "line": "190",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "receivedata",
@@ -59804,7 +59468,7 @@
     "display": "void SPIReadDataFromFIFO(u8 *, u8)",
     "location": {
       "column": "6",
-      "line": "209",
+      "line": "210",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SPIReadDataFromFIFO",
@@ -59812,13 +59476,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@7030@F@SPIReadDataFromFIFO@i",
+    "ID": "c:SX1278.c@7104@F@SPIReadDataFromFIFO@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "215",
+      "line": "216",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "i",
@@ -59832,7 +59496,7 @@
     "display": "void SPIWriteDatatoFIFO(u8 *, u8)",
     "location": {
       "column": "6",
-      "line": "233",
+      "line": "234",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SPIWriteDatatoFIFO",
@@ -59840,13 +59504,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@7701@F@SPIWriteDatatoFIFO@i",
+    "ID": "c:SX1278.c@7775@F@SPIWriteDatatoFIFO@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "238",
+      "line": "239",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "i",
@@ -59860,7 +59524,7 @@
     "display": "void SX1278Reset(void)",
     "location": {
       "column": "6",
-      "line": "253",
+      "line": "254",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1278Reset",
@@ -59874,7 +59538,7 @@
     "display": "void SX1276LoRaSetOpMode(RFMode_SET)",
     "location": {
       "column": "6",
-      "line": "267",
+      "line": "268",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetOpMode",
@@ -59882,13 +59546,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@8600@F@SX1276LoRaSetOpMode@opModePrev",
+    "ID": "c:SX1278.c@8674@F@SX1276LoRaSetOpMode@opModePrev",
     "What": "Variable",
     "defdec": "Def",
     "display": "opModePrev",
     "location": {
       "column": "19",
-      "line": "269",
+      "line": "270",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "opModePrev",
@@ -59902,7 +59566,7 @@
     "display": "void SX1276LoRaFsk(Debugging_fsk_ook)",
     "location": {
       "column": "6",
-      "line": "283",
+      "line": "284",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaFsk",
@@ -59910,13 +59574,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@9245@F@SX1276LoRaFsk@opModePrev",
+    "ID": "c:SX1278.c@9319@F@SX1276LoRaFsk@opModePrev",
     "What": "Variable",
     "defdec": "Def",
     "display": "opModePrev",
     "location": {
       "column": "19",
-      "line": "285",
+      "line": "286",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "opModePrev",
@@ -59930,7 +59594,7 @@
     "display": "void SX1276LoRaSetRFFrequency(void)",
     "location": {
       "column": "6",
-      "line": "299",
+      "line": "300",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetRFFrequency",
@@ -59944,7 +59608,7 @@
     "display": "void SX1276LoRaSetRFPower(unsigned char)",
     "location": {
       "column": "6",
-      "line": "313",
+      "line": "314",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetRFPower",
@@ -59958,7 +59622,7 @@
     "display": "void SX1276LoRaSetNbTrigPeaks(unsigned char)",
     "location": {
       "column": "6",
-      "line": "327",
+      "line": "328",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetNbTrigPeaks",
@@ -59966,13 +59630,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@11098@F@SX1276LoRaSetNbTrigPeaks@RECVER_DAT",
+    "ID": "c:SX1278.c@11172@F@SX1276LoRaSetNbTrigPeaks@RECVER_DAT",
     "What": "Variable",
     "defdec": "Def",
     "display": "RECVER_DAT",
     "location": {
       "column": "19",
-      "line": "329",
+      "line": "330",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RECVER_DAT",
@@ -59986,7 +59650,7 @@
     "display": "void SX1276LoRaSetSpreadingFactor(unsigned char)",
     "location": {
       "column": "6",
-      "line": "342",
+      "line": "343",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetSpreadingFactor",
@@ -59994,13 +59658,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@11657@F@SX1276LoRaSetSpreadingFactor@RECVER_DAT",
+    "ID": "c:SX1278.c@11731@F@SX1276LoRaSetSpreadingFactor@RECVER_DAT",
     "What": "Variable",
     "defdec": "Def",
     "display": "RECVER_DAT",
     "location": {
       "column": "19",
-      "line": "344",
+      "line": "345",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RECVER_DAT",
@@ -60014,7 +59678,7 @@
     "display": "void SX1276LoRaSetErrorCoding(unsigned char)",
     "location": {
       "column": "6",
-      "line": "362",
+      "line": "363",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetErrorCoding",
@@ -60022,13 +59686,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@12439@F@SX1276LoRaSetErrorCoding@RECVER_DAT",
+    "ID": "c:SX1278.c@12513@F@SX1276LoRaSetErrorCoding@RECVER_DAT",
     "What": "Variable",
     "defdec": "Def",
     "display": "RECVER_DAT",
     "location": {
       "column": "19",
-      "line": "364",
+      "line": "365",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RECVER_DAT",
@@ -60042,7 +59706,7 @@
     "display": "void SX1276LoRaSetPacketCrcOn(u8)",
     "location": {
       "column": "6",
-      "line": "377",
+      "line": "378",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetPacketCrcOn",
@@ -60050,13 +59714,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@13079@F@SX1276LoRaSetPacketCrcOn@RECVER_DAT",
+    "ID": "c:SX1278.c@13153@F@SX1276LoRaSetPacketCrcOn@RECVER_DAT",
     "What": "Variable",
     "defdec": "Def",
     "display": "RECVER_DAT",
     "location": {
       "column": "19",
-      "line": "379",
+      "line": "380",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RECVER_DAT",
@@ -60070,7 +59734,7 @@
     "display": "void SX1276LoRaSetSignalBandwidth(unsigned char)",
     "location": {
       "column": "6",
-      "line": "402",
+      "line": "403",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetSignalBandwidth",
@@ -60078,13 +59742,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@14005@F@SX1276LoRaSetSignalBandwidth@RECVER_DAT",
+    "ID": "c:SX1278.c@14079@F@SX1276LoRaSetSignalBandwidth@RECVER_DAT",
     "What": "Variable",
     "defdec": "Def",
     "display": "RECVER_DAT",
     "location": {
       "column": "19",
-      "line": "404",
+      "line": "405",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RECVER_DAT",
@@ -60098,7 +59762,7 @@
     "display": "void SX1276LoRaSetImplicitHeaderOn(BOOL)",
     "location": {
       "column": "6",
-      "line": "417",
+      "line": "418",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetImplicitHeaderOn",
@@ -60106,13 +59770,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@14621@F@SX1276LoRaSetImplicitHeaderOn@RECVER_DAT",
+    "ID": "c:SX1278.c@14695@F@SX1276LoRaSetImplicitHeaderOn@RECVER_DAT",
     "What": "Variable",
     "defdec": "Def",
     "display": "RECVER_DAT",
     "location": {
       "column": "19",
-      "line": "419",
+      "line": "420",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RECVER_DAT",
@@ -60126,7 +59790,7 @@
     "display": "void SX1276LoRaSetSymbTimeout(unsigned int)",
     "location": {
       "column": "6",
-      "line": "432",
+      "line": "433",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetSymbTimeout",
@@ -60134,13 +59798,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@15236@F@SX1276LoRaSetSymbTimeout@RECVER_DAT",
+    "ID": "c:SX1278.c@15310@F@SX1276LoRaSetSymbTimeout@RECVER_DAT",
     "What": "Variable",
     "defdec": "Def",
     "display": "RECVER_DAT",
     "location": {
       "column": "19",
-      "line": "434",
+      "line": "435",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RECVER_DAT",
@@ -60154,10 +59818,66 @@
     "display": "void SX1276LoRaSetPayloadLength(unsigned char)",
     "location": {
       "column": "6",
-      "line": "451",
+      "line": "452",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetPayloadLength",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SX1276GetFeiValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "long SX1276GetFeiValue(void)",
+    "location": {
+      "column": "6",
+      "line": "458",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
+    },
+    "name": "SX1276GetFeiValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:SX1278.c@16414@F@SX1276GetFeiValue@error28",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "error28",
+    "location": {
+      "column": "8",
+      "line": "460",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
+    },
+    "name": "error28",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:SX1278.c@16414@F@SX1276GetFeiValue@error29",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "error29",
+    "location": {
+      "column": "16",
+      "line": "460",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
+    },
+    "name": "error29",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:SX1278.c@16414@F@SX1276GetFeiValue@error2A",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "error2A",
+    "location": {
+      "column": "24",
+      "line": "460",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
+    },
+    "name": "error2A",
     "origin": "project_file",
     "scope": null
   },
@@ -60168,7 +59888,7 @@
     "display": "void SX1276LoRaSetPreamLength(unsigned int)",
     "location": {
       "column": "6",
-      "line": "464",
+      "line": "475",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetPreamLength",
@@ -60176,13 +59896,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@16682@F@SX1276LoRaSetPreamLength@a",
+    "ID": "c:SX1278.c@17011@F@SX1276LoRaSetPreamLength@a",
     "What": "Variable",
     "defdec": "Def",
     "display": "a",
     "location": {
       "column": "19",
-      "line": "466",
+      "line": "477",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "a",
@@ -60196,7 +59916,7 @@
     "display": "void SX1276LoRaSetMobileNode(BOOL)",
     "location": {
       "column": "6",
-      "line": "480",
+      "line": "491",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "SX1276LoRaSetMobileNode",
@@ -60204,13 +59924,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@17226@F@SX1276LoRaSetMobileNode@RECVER_DAT",
+    "ID": "c:SX1278.c@17555@F@SX1276LoRaSetMobileNode@RECVER_DAT",
     "What": "Variable",
     "defdec": "Def",
     "display": "RECVER_DAT",
     "location": {
       "column": "19",
-      "line": "482",
+      "line": "493",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "RECVER_DAT",
@@ -60224,7 +59944,7 @@
     "display": "Version",
     "location": {
       "column": "4",
-      "line": "499",
+      "line": "510",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Version",
@@ -60238,7 +59958,7 @@
     "display": "void Sx1278LoRaInit(void)",
     "location": {
       "column": "6",
-      "line": "500",
+      "line": "511",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Sx1278LoRaInit",
@@ -60252,7 +59972,7 @@
     "display": "void Sx1278SendPacket(unsigned char *, unsigned char)",
     "location": {
       "column": "6",
-      "line": "560",
+      "line": "571",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Sx1278SendPacket",
@@ -60266,7 +59986,7 @@
     "display": "void Sx1278ReceiveModeEnable(void)",
     "location": {
       "column": "6",
-      "line": "597",
+      "line": "608",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Sx1278ReceiveModeEnable",
@@ -60280,7 +60000,7 @@
     "display": "void Sx1278CADReceiveModeEnable(void)",
     "location": {
       "column": "6",
-      "line": "614",
+      "line": "625",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Sx1278CADReceiveModeEnable",
@@ -60294,7 +60014,7 @@
     "display": "void Sx1278SleepModeEnable(void)",
     "location": {
       "column": "6",
-      "line": "630",
+      "line": "641",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Sx1278SleepModeEnable",
@@ -60308,7 +60028,7 @@
     "display": "void Sx1278InteruptHandler(void)",
     "location": {
       "column": "6",
-      "line": "655",
+      "line": "666",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "Sx1278InteruptHandler",
@@ -60316,13 +60036,13 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@27007@F@Sx1278InteruptHandler@i",
+    "ID": "c:SX1278.c@27339@F@Sx1278InteruptHandler@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "31",
-      "line": "670",
+      "line": "681",
       "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\SX1278\\SX1278.c"
     },
     "name": "i",
@@ -75058,425 +74778,283 @@
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "ID": "c:LightSensor.h@37@macro@__LightSensor_H__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_YSIZET_H",
+    "display": "__LightSensor_H__",
+    "location": {
+      "column": "10",
+      "line": "2",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "__LightSensor_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:LightSensor.h@258@macro@IICSPEED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IICSPEED",
     "location": {
       "column": "9",
-      "line": "5",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "line": "13",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "_YSIZET_H",
-    "origin": "system_include",
+    "name": "IICSPEED",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@333@macro@_SIZE_T",
+    "ID": "c:LightSensor.h@346@macro@Slave_Address",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_SIZE_T",
+    "display": "Slave_Address",
     "location": {
-      "column": "11",
-      "line": "17",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "column": "9",
+      "line": "14",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "_SIZE_T",
-    "origin": "system_include",
+    "name": "Slave_Address",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@352@macro@_SIZET",
+    "ID": "c:LightSensor.h@386@macro@MSB",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_SIZET",
+    "display": "MSB",
     "location": {
-      "column": "11",
-      "line": "18",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "column": "9",
+      "line": "15",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "_SIZET",
-    "origin": "system_include",
+    "name": "MSB",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
+    "ID": "c:LightSensor.h@426@macro@LSB",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
+    "display": "LSB",
     "location": {
-      "column": "11",
-      "line": "19",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "column": "9",
+      "line": "16",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "_STD_USING_SIZE_T",
-    "origin": "system_include",
+    "name": "LSB",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@T@size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Sizet",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
+    "ID": "c:LightSensor.h@582@macro@IIC_SDA_GPIO_Pin",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
+    "display": "IIC_SDA_GPIO_Pin",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "IIC_SDA_GPIO_Pin",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:LightSensor.h@634@macro@IIC_SCL_GPIO_Pin",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IIC_SCL_GPIO_Pin",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "IIC_SCL_GPIO_Pin",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:LightSensor.h@686@macro@IIC_GPIOx",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IIC_GPIOx",
     "location": {
       "column": "9",
       "line": "23",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "__DATA_PTR_MEM_HELPER1__",
-    "origin": "system_include",
+    "name": "IIC_GPIOx",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "25",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__data_size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ystdio.h@100@macro@_YSTDIO",
+    "ID": "c:LightSensor.h@735@macro@SCL_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_YSTDIO",
+    "display": "SCL_H",
     "location": {
       "column": "9",
-      "line": "4",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+      "line": "25",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "_YSTDIO",
-    "origin": "system_include",
+    "name": "SCL_H",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ystdio.h@328@macro@_FD_TYPE",
+    "ID": "c:LightSensor.h@851@macro@SCL_L",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_FD_TYPE",
+    "display": "SCL_L",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "SCL_L",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:LightSensor.h@971@macro@SDA_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SDA_H",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "SDA_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:LightSensor.h@1087@macro@SDA_L",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SDA_L",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "SDA_L",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:LightSensor.h@1278@macro@SDA_read",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SDA_read",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "SDA_read",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@MAX44009light",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "MAX44009light",
     "location": {
       "column": "15",
-      "line": "19",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+      "line": "37",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "_FD_TYPE",
-    "origin": "system_include",
+    "name": "MAX44009light",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@S@__FILE",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "__FILE",
-    "location": {
-      "column": "12",
-      "line": "25",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-    },
-    "members": [
-      {
-        "ID": "c:@S@__FILE@FI@_Mode",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Mode",
-        "location": {
-          "column": "22",
-          "line": "27",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Mode",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Lockno",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Lockno",
-        "location": {
-          "column": "21",
-          "line": "28",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Lockno",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Handle",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Handle",
-        "location": {
-          "column": "16",
-          "line": "29",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Handle",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Buf",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Buf",
-        "location": {
-          "column": "22",
-          "line": "34",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Buf",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Bend",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Bend",
-        "location": {
-          "column": "29",
-          "line": "34",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Bend",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Next",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Next",
-        "location": {
-          "column": "37",
-          "line": "34",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Next",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Rend",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Rend",
-        "location": {
-          "column": "22",
-          "line": "39",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Rend",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Wend",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Wend",
-        "location": {
-          "column": "30",
-          "line": "39",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Wend",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Rback",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Rback",
-        "location": {
-          "column": "38",
-          "line": "39",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Rback",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_WRback",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_WRback",
-        "location": {
-          "column": "16",
-          "line": "43",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_WRback",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_WBack",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_WBack",
-        "location": {
-          "column": "25",
-          "line": "43",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_WBack",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Rsave",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Rsave",
-        "location": {
-          "column": "22",
-          "line": "48",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Rsave",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_WRend",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_WRend",
-        "location": {
-          "column": "31",
-          "line": "48",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_WRend",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_WWend",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_WWend",
-        "location": {
-          "column": "40",
-          "line": "48",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_WWend",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Wstate",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Wstate",
-        "location": {
-          "column": "17",
-          "line": "50",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Wstate",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Tmpnam",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Tmpnam",
-        "location": {
-          "column": "13",
-          "line": "51",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Tmpnam",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Back",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Back",
-        "location": {
-          "column": "21",
-          "line": "52",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Back",
-        "origin": "system_include",
-        "scope": "__FILE"
-      },
-      {
-        "ID": "c:@S@__FILE@FI@_Cbuf",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Cbuf",
-        "location": {
-          "column": "36",
-          "line": "52",
-          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
-        },
-        "name": "_Cbuf",
-        "origin": "system_include",
-        "scope": "__FILE"
-      }
-    ],
-    "name": "__FILE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@remove",
+    "ID": "c:@F@I2C_GPIO_Config",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int remove(const char *)",
+    "display": "void I2C_GPIO_Config(void)",
     "location": {
-      "column": "18",
-      "line": "62",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+      "column": "6",
+      "line": "40",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "remove",
-    "origin": "system_include",
+    "name": "I2C_GPIO_Config",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@rename",
+    "ID": "c:@F@I2C_Stop",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int rename(const char *, const char *)",
+    "display": "void I2C_Stop(void)",
     "location": {
-      "column": "18",
-      "line": "63",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+      "column": "6",
+      "line": "41",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
     },
-    "name": "rename",
-    "origin": "system_include",
+    "name": "I2C_Stop",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Read_MAX44009",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "u8 Read_MAX44009(void)",
+    "location": {
+      "column": "4",
+      "line": "42",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "Read_MAX44009",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_MAX44009",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_MAX44009(void)",
+    "location": {
+      "column": "6",
+      "line": "43",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "Init_MAX44009",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@get_MAX44009_data",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t get_MAX44009_data(void)",
+    "location": {
+      "column": "10",
+      "line": "45",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "get_MAX44009_data",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Convert_MAX44009",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Convert_MAX44009(void)",
+    "location": {
+      "column": "6",
+      "line": "47",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+    },
+    "name": "Convert_MAX44009",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -75692,86 +75270,214 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_irtim.h@1172@macro@__STM8L15x_IRTIM_H",
+    "ID": "c:stm8l15x_rst.h@1166@macro@__STM8L15x_RST_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__STM8L15x_IRTIM_H",
+    "display": "__STM8L15x_RST_H",
     "location": {
       "column": "9",
       "line": "25",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
     },
-    "name": "__STM8L15x_IRTIM_H",
+    "name": "__STM8L15x_RST_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@IRTIM_DeInit",
+    "ID": "c:@EA@RST_FLAG_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_PORF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_PORF",
+        "location": {
+          "column": "3",
+          "line": "48",
+          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+        },
+        "name": "RST_FLAG_PORF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_SWIMF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_SWIMF",
+        "location": {
+          "column": "3",
+          "line": "49",
+          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+        },
+        "name": "RST_FLAG_SWIMF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_ILLOPF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_ILLOPF",
+        "location": {
+          "column": "3",
+          "line": "50",
+          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+        },
+        "name": "RST_FLAG_ILLOPF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_IWDGF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_IWDGF",
+        "location": {
+          "column": "3",
+          "line": "51",
+          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+        },
+        "name": "RST_FLAG_IWDGF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_WWDGF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_WWDGF",
+        "location": {
+          "column": "3",
+          "line": "52",
+          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+        },
+        "name": "RST_FLAG_WWDGF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_BORF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_BORF",
+        "location": {
+          "column": "3",
+          "line": "53",
+          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+        },
+        "name": "RST_FLAG_BORF",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_rst.h@2090@macro@IS_RST_FLAG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_RST_FLAG",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+    },
+    "name": "IS_RST_FLAG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RST_GetFlagStatus",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void IRTIM_DeInit(void)",
+    "display": "FlagStatus RST_GetFlagStatus(RST_FLAG_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "70",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+    },
+    "name": "RST_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RST_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FlagStatus RST_GetFlagStatus(RST_FLAG_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "70",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
+    },
+    "name": "RST_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RST_ClearFlag",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void RST_ClearFlag(RST_FLAG_TypeDef)",
     "location": {
       "column": "6",
-      "line": "44",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+      "line": "71",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
     },
-    "name": "IRTIM_DeInit",
+    "name": "RST_ClearFlag",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@IRTIM_Cmd",
+    "ID": "c:@F@RST_ClearFlag",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void IRTIM_Cmd(FunctionalState)",
+    "display": "void RST_ClearFlag(RST_FLAG_TypeDef)",
     "location": {
       "column": "6",
-      "line": "45",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+      "line": "71",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
     },
-    "name": "IRTIM_Cmd",
+    "name": "RST_ClearFlag",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@IRTIM_HighSinkODCmd",
+    "ID": "c:@F@RST_GPOutputEnable",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void IRTIM_HighSinkODCmd(FunctionalState)",
+    "display": "void RST_GPOutputEnable(void)",
     "location": {
       "column": "6",
-      "line": "46",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+      "line": "74",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
     },
-    "name": "IRTIM_HighSinkODCmd",
+    "name": "RST_GPOutputEnable",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@IRTIM_GetStatus",
+    "ID": "c:@F@RST_GPOutputEnable",
     "What": "Function",
     "defdec": "Dec",
-    "display": "FunctionalState IRTIM_GetStatus(void)",
+    "display": "void RST_GPOutputEnable(void)",
     "location": {
-      "column": "17",
-      "line": "49",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+      "column": "6",
+      "line": "74",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
     },
-    "name": "IRTIM_GetStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IRTIM_GetHighSinkODStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FunctionalState IRTIM_GetHighSinkODStatus(void)",
-    "location": {
-      "column": "17",
-      "line": "50",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
-    },
-    "name": "IRTIM_GetHighSinkODStatus",
+    "name": "RST_GPOutputEnable",
     "origin": "user_include",
     "scope": null
   },
@@ -76986,6 +76692,468 @@
     "scope": null
   },
   {
+    "ID": "c:ycheck.h@533@macro@__INTRINSIC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__INTRINSIC",
+    "location": {
+      "column": "11",
+      "line": "21",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__INTRINSIC",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@1804@macro@__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
+    "location": {
+      "column": "11",
+      "line": "65",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__STM8ABI_PORTABILITY_INTERNAL_LEVEL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@1879@macro@_YCHECK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YCHECK",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "_YCHECK",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@2491@macro@__EFF_NS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NS",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@2583@macro@__EFF_NSNW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NSNW1",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NSNW1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@2688@macro@__EFF_NE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NE",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@2767@macro@__EFF_NENR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR1",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@2858@macro@__EFF_NENR1R1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR1R1",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR1R1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@2960@macro@__EFF_NENR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR2",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3051@macro@__EFF_NENR1NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR1NW2",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR1NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3155@macro@__EFF_NENR1NW2R1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENR1NW2R1",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENR1NW2R1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3272@macro@__EFF_NENW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENW1",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENW1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3364@macro@__EFF_NENW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENW2",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3456@macro@__EFF_NENW2R1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENW2R1",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENW2R1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3559@macro@__EFF_NENW1NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NENW1NW2",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NENW1NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3653@macro@__EFF_NR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NR1",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NR1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3734@macro@__EFF_NR1NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NR1NW2",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NR1NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3828@macro@__EFF_NR1NW3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NR1NW3",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NR1NW3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@3922@macro@__EFF_NW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NW1",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NW1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4004@macro@__EFF_NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NW2",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4086@macro@__EFF_NW1NR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NW1NR2",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NW1NR2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4180@macro@__EFF_NW1NW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__EFF_NW1NW2",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__EFF_NW1NW2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4272@macro@__ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "9",
+      "line": "107",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4329@macro@__ATTRIBUTES_CAN_THROW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATTRIBUTES_CAN_THROW",
+    "location": {
+      "column": "9",
+      "line": "108",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__ATTRIBUTES_CAN_THROW",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4376@macro@__ATTRIBUTES_NORETURN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATTRIBUTES_NORETURN",
+    "location": {
+      "column": "9",
+      "line": "109",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__ATTRIBUTES_NORETURN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@4444@macro@__ATTRIBUTES_NORETURN_CAN_THROW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__ATTRIBUTES_NORETURN_CAN_THROW",
+    "location": {
+      "column": "9",
+      "line": "110",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ycheck.h"
+    },
+    "name": "__ATTRIBUTES_NORETURN_CAN_THROW",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSIZET_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_YSIZET_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@333@macro@_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "17",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@352@macro@_SIZET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZET",
+    "location": {
+      "column": "11",
+      "line": "18",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "19",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Sizet",
+    "location": {
+      "column": "16",
+      "line": "20",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DATA_PTR_MEM_HELPER1__",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "25",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "__data_size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:usart.h@31@macro@__USART_H__",
     "What": "MacroDef",
     "defdec": "Def",
@@ -77576,218 +77744,6 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_rst.h@1166@macro@__STM8L15x_RST_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8L15x_RST_H",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "__STM8L15x_RST_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@RST_FLAG_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_PORF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_PORF",
-        "location": {
-          "column": "3",
-          "line": "48",
-          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-        },
-        "name": "RST_FLAG_PORF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_SWIMF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_SWIMF",
-        "location": {
-          "column": "3",
-          "line": "49",
-          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-        },
-        "name": "RST_FLAG_SWIMF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_ILLOPF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_ILLOPF",
-        "location": {
-          "column": "3",
-          "line": "50",
-          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-        },
-        "name": "RST_FLAG_ILLOPF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_IWDGF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_IWDGF",
-        "location": {
-          "column": "3",
-          "line": "51",
-          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-        },
-        "name": "RST_FLAG_IWDGF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_WWDGF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_WWDGF",
-        "location": {
-          "column": "3",
-          "line": "52",
-          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-        },
-        "name": "RST_FLAG_WWDGF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_FLAG_TypeDef@RST_FLAG_BORF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_BORF",
-        "location": {
-          "column": "3",
-          "line": "53",
-          "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-        },
-        "name": "RST_FLAG_BORF",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "47",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_rst.h@2090@macro@IS_RST_FLAG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_RST_FLAG",
-    "location": {
-      "column": "9",
-      "line": "56",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "IS_RST_FLAG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FlagStatus RST_GetFlagStatus(RST_FLAG_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "70",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "RST_GetFlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FlagStatus RST_GetFlagStatus(RST_FLAG_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "70",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "RST_GetFlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_ClearFlag",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void RST_ClearFlag(RST_FLAG_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "71",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "RST_ClearFlag",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_ClearFlag",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void RST_ClearFlag(RST_FLAG_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "71",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "RST_ClearFlag",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_GPOutputEnable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void RST_GPOutputEnable(void)",
-    "location": {
-      "column": "6",
-      "line": "74",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "RST_GPOutputEnable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_GPOutputEnable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void RST_GPOutputEnable(void)",
-    "location": {
-      "column": "6",
-      "line": "74",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
-    },
-    "name": "RST_GPOutputEnable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:intrinsics.h@239@macro@__INTRINSICS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -77984,31 +77940,425 @@
     "scope": null
   },
   {
-    "ID": "c:IWDG.c@1042@macro@RELOAD_VALUE",
+    "ID": "c:DLib_Product.h@161@macro@_DLIB_PRODUCT_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "RELOAD_VALUE",
+    "display": "_DLIB_PRODUCT_H",
     "location": {
       "column": "9",
-      "line": "19",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\IWDG\\IWDG.c"
+      "line": "7",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
     },
-    "name": "RELOAD_VALUE",
-    "origin": "project_file",
+    "name": "_DLIB_PRODUCT_H",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@IWDG_Config",
-    "What": "Function",
+    "ID": "c:DLib_Product.h@314@macro@_DLIB_SMALL_TARGET",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void IWDG_Config(void)",
+    "display": "_DLIB_SMALL_TARGET",
     "location": {
-      "column": "6",
-      "line": "21",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\IWDG\\IWDG.c"
+      "column": "9",
+      "line": "16",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
     },
-    "name": "IWDG_Config",
-    "origin": "project_file",
+    "name": "_DLIB_SMALL_TARGET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@427@macro@_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@539@macro@_FLOATING_LESS_INLINES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_FLOATING_LESS_INLINES",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_FLOATING_LESS_INLINES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@633@macro@_DLIB_SMALL_FP_HELPERS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SMALL_FP_HELPERS",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SMALL_FP_HELPERS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@711@macro@__WEAK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__WEAK",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__WEAK",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@838@macro@_TLS_CONST_DEFINITION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TLS_CONST_DEFINITION",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_TLS_CONST_DEFINITION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ystdio.h@100@macro@_YSTDIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSTDIO",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "_YSTDIO",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ystdio.h@328@macro@_FD_TYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_FD_TYPE",
+    "location": {
+      "column": "15",
+      "line": "19",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "_FD_TYPE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@__FILE",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "__FILE",
+    "location": {
+      "column": "12",
+      "line": "25",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@__FILE@FI@_Mode",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Mode",
+        "location": {
+          "column": "22",
+          "line": "27",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Mode",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Lockno",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Lockno",
+        "location": {
+          "column": "21",
+          "line": "28",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Lockno",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Handle",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Handle",
+        "location": {
+          "column": "16",
+          "line": "29",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Handle",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Buf",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Buf",
+        "location": {
+          "column": "22",
+          "line": "34",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Buf",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Bend",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Bend",
+        "location": {
+          "column": "29",
+          "line": "34",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Bend",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Next",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Next",
+        "location": {
+          "column": "37",
+          "line": "34",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Next",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Rend",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Rend",
+        "location": {
+          "column": "22",
+          "line": "39",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Rend",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Wend",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Wend",
+        "location": {
+          "column": "30",
+          "line": "39",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Wend",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Rback",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Rback",
+        "location": {
+          "column": "38",
+          "line": "39",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Rback",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_WRback",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_WRback",
+        "location": {
+          "column": "16",
+          "line": "43",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_WRback",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_WBack",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_WBack",
+        "location": {
+          "column": "25",
+          "line": "43",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_WBack",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Rsave",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Rsave",
+        "location": {
+          "column": "22",
+          "line": "48",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Rsave",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_WRend",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_WRend",
+        "location": {
+          "column": "31",
+          "line": "48",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_WRend",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_WWend",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_WWend",
+        "location": {
+          "column": "40",
+          "line": "48",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_WWend",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Wstate",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Wstate",
+        "location": {
+          "column": "17",
+          "line": "50",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Wstate",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Tmpnam",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Tmpnam",
+        "location": {
+          "column": "13",
+          "line": "51",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Tmpnam",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Back",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Back",
+        "location": {
+          "column": "21",
+          "line": "52",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Back",
+        "origin": "system_include",
+        "scope": "__FILE"
+      },
+      {
+        "ID": "c:@S@__FILE@FI@_Cbuf",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Cbuf",
+        "location": {
+          "column": "36",
+          "line": "52",
+          "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+        },
+        "name": "_Cbuf",
+        "origin": "system_include",
+        "scope": "__FILE"
+      }
+    ],
+    "name": "__FILE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@remove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int remove(const char *)",
+    "location": {
+      "column": "18",
+      "line": "62",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "remove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@rename",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int rename(const char *, const char *)",
+    "location": {
+      "column": "18",
+      "line": "63",
+      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ystdio.h"
+    },
+    "name": "rename",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -78138,6 +78488,34 @@
     "scope": null
   },
   {
+    "ID": "c:IWDG.c@1042@macro@RELOAD_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RELOAD_VALUE",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\IWDG\\IWDG.c"
+    },
+    "name": "RELOAD_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IWDG_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\IWDG\\IWDG.c"
+    },
+    "name": "IWDG_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:dlstm8smf.h@140@macro@_DLIB_CONFIG_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -78208,282 +78586,86 @@
     "scope": null
   },
   {
-    "ID": "c:LightSensor.h@37@macro@__LightSensor_H__",
+    "ID": "c:stm8l15x_irtim.h@1172@macro@__STM8L15x_IRTIM_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__LightSensor_H__",
-    "location": {
-      "column": "10",
-      "line": "2",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "__LightSensor_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@258@macro@IICSPEED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IICSPEED",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "IICSPEED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@346@macro@Slave_Address",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "Slave_Address",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "Slave_Address",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@386@macro@MSB",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "MSB",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "MSB",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@426@macro@LSB",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LSB",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "LSB",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@582@macro@IIC_SDA_GPIO_Pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IIC_SDA_GPIO_Pin",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "IIC_SDA_GPIO_Pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@634@macro@IIC_SCL_GPIO_Pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IIC_SCL_GPIO_Pin",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "IIC_SCL_GPIO_Pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@686@macro@IIC_GPIOx",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IIC_GPIOx",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "IIC_GPIOx",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@735@macro@SCL_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SCL_H",
+    "display": "__STM8L15x_IRTIM_H",
     "location": {
       "column": "9",
       "line": "25",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
     },
-    "name": "SCL_H",
+    "name": "__STM8L15x_IRTIM_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:LightSensor.h@851@macro@SCL_L",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SCL_L",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "SCL_L",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@971@macro@SDA_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SDA_H",
-    "location": {
-      "column": "9",
-      "line": "28",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "SDA_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@1087@macro@SDA_L",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SDA_L",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "SDA_L",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:LightSensor.h@1278@macro@SDA_read",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SDA_read",
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "SDA_read",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@MAX44009light",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "MAX44009light",
-    "location": {
-      "column": "15",
-      "line": "37",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "MAX44009light",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_GPIO_Config",
+    "ID": "c:@F@IRTIM_DeInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void I2C_GPIO_Config(void)",
+    "display": "void IRTIM_DeInit(void)",
     "location": {
       "column": "6",
-      "line": "40",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+      "line": "44",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
     },
-    "name": "I2C_GPIO_Config",
+    "name": "IRTIM_DeInit",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@I2C_Stop",
+    "ID": "c:@F@IRTIM_Cmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void I2C_Stop(void)",
+    "display": "void IRTIM_Cmd(FunctionalState)",
     "location": {
       "column": "6",
-      "line": "41",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "I2C_Stop",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Read_MAX44009",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "u8 Read_MAX44009(void)",
-    "location": {
-      "column": "4",
-      "line": "42",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "Read_MAX44009",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_MAX44009",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Init_MAX44009(void)",
-    "location": {
-      "column": "6",
-      "line": "43",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
-    },
-    "name": "Init_MAX44009",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@get_MAX44009_data",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint16_t get_MAX44009_data(void)",
-    "location": {
-      "column": "10",
       "line": "45",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
     },
-    "name": "get_MAX44009_data",
+    "name": "IRTIM_Cmd",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@Convert_MAX44009",
+    "ID": "c:@F@IRTIM_HighSinkODCmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void Convert_MAX44009(void)",
+    "display": "void IRTIM_HighSinkODCmd(FunctionalState)",
     "location": {
       "column": "6",
-      "line": "47",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\LightSensor\\LightSensor.h"
+      "line": "46",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
     },
-    "name": "Convert_MAX44009",
+    "name": "IRTIM_HighSinkODCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IRTIM_GetStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FunctionalState IRTIM_GetStatus(void)",
+    "location": {
+      "column": "17",
+      "line": "49",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+    },
+    "name": "IRTIM_GetStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IRTIM_GetHighSinkODStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FunctionalState IRTIM_GetHighSinkODStatus(void)",
+    "location": {
+      "column": "17",
+      "line": "50",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+    },
+    "name": "IRTIM_GetHighSinkODStatus",
     "origin": "user_include",
     "scope": null
   },
@@ -78558,6 +78740,48 @@
     "scope": null
   },
   {
+    "ID": "c:sprintf.h@33@macro@__SPRINTF_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SPRINTF_H__",
+    "location": {
+      "column": "10",
+      "line": "2",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\sprintf\\sprintf.h"
+    },
+    "name": "__SPRINTF_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:IWDG.h@30@macro@__IWDG_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__IWDG_H__",
+    "location": {
+      "column": "10",
+      "line": "2",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\IWDG\\IWDG.h"
+    },
+    "name": "__IWDG_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IWDG_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\IWDG\\IWDG.h"
+    },
+    "name": "IWDG_Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:delay.h@912@macro@__DELYA_H__",
     "What": "MacroDef",
     "defdec": "Def",
@@ -78624,146 +78848,6 @@
       "path": "D:\\stm8L\\send\\stm8l-lora\\system\\delay.h"
     },
     "name": "delay_us",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@161@macro@_DLIB_PRODUCT_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_H",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@314@macro@_DLIB_SMALL_TARGET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SMALL_TARGET",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SMALL_TARGET",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@427@macro@_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@539@macro@_FLOATING_LESS_INLINES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_FLOATING_LESS_INLINES",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_FLOATING_LESS_INLINES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@633@macro@_DLIB_SMALL_FP_HELPERS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SMALL_FP_HELPERS",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SMALL_FP_HELPERS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@711@macro@__WEAK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__WEAK",
-    "location": {
-      "column": "9",
-      "line": "36",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__WEAK",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@838@macro@_TLS_CONST_DEFINITION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_TLS_CONST_DEFINITION",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "D:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_TLS_CONST_DEFINITION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:IWDG.h@30@macro@__IWDG_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__IWDG_H__",
-    "location": {
-      "column": "10",
-      "line": "2",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\IWDG\\IWDG.h"
-    },
-    "name": "__IWDG_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\IWDG\\IWDG.h"
-    },
-    "name": "IWDG_Config",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:sprintf.h@33@macro@__SPRINTF_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SPRINTF_H__",
-    "location": {
-      "column": "10",
-      "line": "2",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\Components\\sprintf\\sprintf.h"
-    },
-    "name": "__SPRINTF_H__",
     "origin": "user_include",
     "scope": null
   },
@@ -107916,13 +108000,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1438@F@main@si4432_Send",
+    "ID": "c:main.c@1503@F@main@si4432_Send",
     "What": "Variable",
     "defdec": "Def",
     "display": "si4432_Send",
     "location": {
       "column": "11",
-      "line": "40",
+      "line": "41",
       "path": "D:\\stm8L\\send\\stm8l-lora\\SENSOR_MDK\\main.c"
     },
     "name": "si4432_Send",
@@ -107936,7 +108020,7 @@
     "display": "void HardWare_Init(void)",
     "location": {
       "column": "6",
-      "line": "73",
+      "line": "74",
       "path": "D:\\stm8L\\send\\stm8l-lora\\SENSOR_MDK\\main.c"
     },
     "name": "HardWare_Init",
@@ -107950,7 +108034,7 @@
     "display": "void SX1278_SEND(void)",
     "location": {
       "column": "6",
-      "line": "83",
+      "line": "84",
       "path": "D:\\stm8L\\send\\stm8l-lora\\SENSOR_MDK\\main.c"
     },
     "name": "SX1278_SEND",
@@ -107958,13 +108042,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2582@F@SX1278_SEND@si4432_Send",
+    "ID": "c:main.c@2739@F@SX1278_SEND@si4432_Send",
     "What": "Variable",
     "defdec": "Def",
     "display": "si4432_Send",
     "location": {
       "column": "11",
-      "line": "86",
+      "line": "87",
       "path": "D:\\stm8L\\send\\stm8l-lora\\SENSOR_MDK\\main.c"
     },
     "name": "si4432_Send",

@@ -48,7 +48,7 @@
         <Freq>16000000</Freq>
     </Simulator>
     <DebugChecksum>
-        <Checksum>1718378077</Checksum>
+        <Checksum>1364281338</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -68,8 +68,7 @@
     </DataSample>
     <Breakpoints>
         <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\CMSIS\stm8l15x_it.c}.397.1" 0 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\Components\SX1278\SX1278.c}.502.5" 1 0 0 0 "" 0 ""</Bp1>
-        <Count>2</Count>
+        <Count>1</Count>
     </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
