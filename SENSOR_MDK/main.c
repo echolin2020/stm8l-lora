@@ -45,7 +45,7 @@ int main(void)
       SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);//清零所有标志位，所有的DIOx口都恢复低电平     
       SX1276LoRaSetOpMode(Sleep_mode);   
       GPIO_ToggleBits(GPIOE, GPIO_Pin_7);
-      delay_ms(100);
+      delay_ms(50);
       }
       //设置睡眠模式
       

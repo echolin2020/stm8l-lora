@@ -522,7 +522,7 @@ void Sx1278LoRaInit(void)
     SX1276LoRaSetSpreadingFactor(7);
     //SX1276LoRaSetErrorCoding(CodingRate[1]);		 //有效数据比 4/6
     SX1276LoRaSetErrorCoding(2);
-    SX1276LoRaSetPacketCrcOn(false);			 //CRC 校验打开
+    SX1276LoRaSetPacketCrcOn(true);			 //CRC 校验打开
     //SX1276LoRaSetSignalBandwidth(Bw_Frequency[8]);	 //设置扩频带宽   250KHZ
     SX1276LoRaSetSignalBandwidth(9);
     SX1276LoRaSetImplicitHeaderOn(true);		 //同步头是显性模式  explicit header
@@ -530,7 +530,7 @@ void Sx1278LoRaInit(void)
     SX1276LoRaSetSymbTimeout(0x3FF);                     //设置接收超时时间,TimOut = SymbTimeout * ts
     SX1276LoRaSetMobileNode(true); 			 //低数据的优化 
     //SX1276LoRaSetPreamLength(65535);
-    SPIWriteOneByteToAddress(REG_LR_PREAMBLEMSB, 0x0f);
+    SPIWriteOneByteToAddress(REG_LR_PREAMBLEMSB, 0x00);
     SPIWriteOneByteToAddress(REG_LR_PREAMBLELSB, 0xff);//maxmim preamble
     //SPIWriteOneByteToAddress( REG_LR_PREAMBLEMSB, 0x00);//前导码
     //SPIWriteOneByteToAddress( REG_LR_PREAMBLELSB, 0x15);

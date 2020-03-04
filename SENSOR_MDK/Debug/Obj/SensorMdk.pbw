@@ -60036,7 +60036,7 @@
     "scope": null
   },
   {
-    "ID": "c:SX1278.c@27339@F@Sx1278InteruptHandler@i",
+    "ID": "c:SX1278.c@27338@F@Sx1278InteruptHandler@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -108042,7 +108042,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2739@F@SX1278_SEND@si4432_Send",
+    "ID": "c:main.c@2738@F@SX1278_SEND@si4432_Send",
     "What": "Variable",
     "defdec": "Def",
     "display": "si4432_Send",
