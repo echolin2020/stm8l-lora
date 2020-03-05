@@ -23,7 +23,7 @@ All rights send
 
 #include "usart.h"
 #include "sprintf.h"
-
+#include "stm8l15x_exti.h"
 #include "SX1278.h"
 
 
@@ -33,39 +33,24 @@ void SX1278_SEND(void);//SX1278发送函数
 
 int main(void)
 {
-          GPIO_Init(GPIOE, GPIO_Pin_7, GPIO_Mode_Out_PP_Low_Fast);
-          
-          while(1){    
-      HardWare_Init();
-      //u8  si4432_Send[24] = {"hello world hello lora"};//test
-      u8  si4432_Send[128] = {"hello world hello lora hello world hello lorahello world hello lora hello world hello lorahello world hello lora"};//test
-      //SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器 
-      Sx1278SendPacket(si4432_Send, 128);
-      //SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器
-      SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);//清零所有标志位，所有的DIOx口都恢复低电平     
-      SX1276LoRaSetOpMode(Sleep_mode);   
-      GPIO_ToggleBits(GPIOE, GPIO_Pin_7);
-      delay_ms(50);
-      }
-      //设置睡眠模式
-      
-
-//          PWR_FastWakeUpCmd(ENABLE);  //快速唤醒使能	
-//          RTC_Config();//启动低功耗
-//        
-//        
-//        PWR_UltraLowPowerCmd(ENABLE);//超低功耗
-//        
-//      
-//        enableInterrupts(); //开启总中断  
-//
-//       
-//	while(1)
-//	{
-//         halt();//进入低功耗
-//         RTC_ClearITPendingBit(RTC_IT_WUT); 
-//         RTC_WakeUpCmd(ENABLE);            
-//	}
+    disableInterrupts();
+    GPIO_Init(GPIOE, GPIO_Pin_7, GPIO_Mode_Out_PP_Low_Fast);
+    GPIO_Init(GPIOC, GPIO_Pin_1, GPIO_Mode_In_FL_IT);
+    EXTI_SetPinSensitivity(EXTI_Pin_1, EXTI_Trigger_Falling);
+    ITC_SetSoftwarePriority(EXTI1_IRQn, ITC_PriorityLevel_1);
+    PWR_FastWakeUpCmd(ENABLE);  //快速唤醒使能	
+    //RTC_Config();//启动低功耗
+    PWR_UltraLowPowerCmd(ENABLE);//超低功耗
+    enableInterrupts(); //开启总中断  
+    while(1)
+	{
+         SX1278_SEND();
+         halt();//进入低功耗
+         //wfi();
+         //RTC_ClearITPendingBit(RTC_IT_WUT); 
+         
+         //RTC_WakeUpCmd(ENABLE);            
+	}
 }
 
 
@@ -82,14 +67,14 @@ void HardWare_Init(void)
 
 
 void SX1278_SEND(void)
-{
+{     GPIO_SetBits(GPIOE, GPIO_Pin_7);
       HardWare_Init();
-      u8  si4432_Send[24] = {"河南兵峰电子科技有限公司"};//test
-      SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器 
-      Sx1278SendPacket(si4432_Send, 24);
-      SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器
+      u8  si4432_Send[128] = {"hello world hello lora hello world hello lorahello world hello lora hello world hello lorahello world hello lora"};//test
+      //SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器 
+      Sx1278SendPacket(si4432_Send, 128);
+      //SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器
       SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);//清零所有标志位，所有的DIOx口都恢复低电平     
-      SX1276LoRaSetOpMode(Sleep_mode);                     //设置睡眠模式
-
+      SX1276LoRaSetOpMode(Sleep_mode);   
+      GPIO_ResetBits(GPIOE, GPIO_Pin_7);
 }
 

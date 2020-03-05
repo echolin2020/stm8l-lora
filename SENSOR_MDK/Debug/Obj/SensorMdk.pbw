@@ -72454,6 +72454,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "260",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@EXTI_SetPinSensitivity",
     "What": "Function",
     "defdec": "Dec",
@@ -72464,6 +72478,34 @@
       "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
     },
     "name": "EXTI_SetPinSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetPinSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetPinSensitivity(EXTI_Pin_TypeDef, EXTI_Trigger_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "261",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_SetPinSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SelectPort",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SelectPort(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "262",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_SelectPort",
     "origin": "user_include",
     "scope": null
   },
@@ -72496,6 +72538,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@EXTI_SetHalfPortSelection",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetHalfPortSelection(EXTI_HalfPort_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "263",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_SetHalfPortSelection",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@EXTI_SetPortSensitivity",
     "What": "Function",
     "defdec": "Dec",
@@ -72506,6 +72562,34 @@
       "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
     },
     "name": "EXTI_SetPortSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetPortSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetPortSensitivity(EXTI_Port_TypeDef, EXTI_Trigger_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "264",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_SetPortSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetPinSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "EXTI_Trigger_TypeDef EXTI_GetPinSensitivity(EXTI_Pin_TypeDef)",
+    "location": {
+      "column": "22",
+      "line": "265",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_GetPinSensitivity",
     "origin": "user_include",
     "scope": null
   },
@@ -72538,6 +72622,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@EXTI_GetPortSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "EXTI_Trigger_TypeDef EXTI_GetPortSensitivity(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "22",
+      "line": "266",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_GetPortSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@EXTI_GetITStatus",
     "What": "Function",
     "defdec": "Dec",
@@ -72548,6 +72646,34 @@
       "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
     },
     "name": "EXTI_GetITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetITStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "ITStatus EXTI_GetITStatus(EXTI_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "269",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_GetITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_ClearITPendingBit(EXTI_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "270",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_exti.h"
+    },
+    "name": "EXTI_ClearITPendingBit",
     "origin": "user_include",
     "scope": null
   },
@@ -73580,7 +73706,7 @@
     "display": "void EXTI2_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "183",
+      "line": "188",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "EXTI2_IRQHandler",
@@ -73594,7 +73720,7 @@
     "display": "void EXTI3_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "195",
+      "line": "200",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "EXTI3_IRQHandler",
@@ -73608,7 +73734,7 @@
     "display": "void EXTI4_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "207",
+      "line": "212",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "EXTI4_IRQHandler",
@@ -73622,7 +73748,7 @@
     "display": "void EXTI5_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "219",
+      "line": "224",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "EXTI5_IRQHandler",
@@ -73636,7 +73762,7 @@
     "display": "void EXTI6_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "231",
+      "line": "236",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "EXTI6_IRQHandler",
@@ -73650,7 +73776,7 @@
     "display": "void EXTI7_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "243",
+      "line": "248",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "EXTI7_IRQHandler",
@@ -73664,7 +73790,7 @@
     "display": "void LCD_AES_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "254",
+      "line": "259",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "LCD_AES_IRQHandler",
@@ -73678,7 +73804,7 @@
     "display": "void SWITCH_CSS_BREAK_DAC_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "265",
+      "line": "270",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "SWITCH_CSS_BREAK_DAC_IRQHandler",
@@ -73692,7 +73818,7 @@
     "display": "void ADC1_COMP_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "277",
+      "line": "282",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "ADC1_COMP_IRQHandler",
@@ -73706,7 +73832,7 @@
     "display": "void TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "289",
+      "line": "294",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler",
@@ -73720,7 +73846,7 @@
     "display": "void TIM2_CC_USART2_RX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "301",
+      "line": "306",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "TIM2_CC_USART2_RX_IRQHandler",
@@ -73734,7 +73860,7 @@
     "display": "void TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "314",
+      "line": "319",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler",
@@ -73748,7 +73874,7 @@
     "display": "void TIM3_CC_USART3_RX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "325",
+      "line": "330",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "TIM3_CC_USART3_RX_IRQHandler",
@@ -73762,7 +73888,7 @@
     "display": "void TIM1_UPD_OVF_TRG_COM_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "336",
+      "line": "341",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "TIM1_UPD_OVF_TRG_COM_IRQHandler",
@@ -73776,7 +73902,7 @@
     "display": "void TIM1_CC_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "347",
+      "line": "352",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "TIM1_CC_IRQHandler",
@@ -73790,7 +73916,7 @@
     "display": "void TIM4_UPD_OVF_TRG_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "359",
+      "line": "364",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "TIM4_UPD_OVF_TRG_IRQHandler",
@@ -73804,7 +73930,7 @@
     "display": "void SPI1_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "371",
+      "line": "376",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "SPI1_IRQHandler",
@@ -73818,7 +73944,7 @@
     "display": "void USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "392",
+      "line": "397",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler",
@@ -73832,7 +73958,7 @@
     "display": "void USART1_RX_TIM5_CC_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "404",
+      "line": "409",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "USART1_RX_TIM5_CC_IRQHandler",
@@ -73846,7 +73972,7 @@
     "display": "void I2C1_SPI2_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "420",
+      "line": "425",
       "path": "D:\\stm8L\\send\\stm8l-lora\\CMSIS\\stm8l15x_it.c"
     },
     "name": "I2C1_SPI2_IRQHandler",
@@ -78488,6 +78614,90 @@
     "scope": null
   },
   {
+    "ID": "c:stm8l15x_irtim.h@1172@macro@__STM8L15x_IRTIM_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8L15x_IRTIM_H",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+    },
+    "name": "__STM8L15x_IRTIM_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IRTIM_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IRTIM_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "44",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+    },
+    "name": "IRTIM_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IRTIM_Cmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IRTIM_Cmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "45",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+    },
+    "name": "IRTIM_Cmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IRTIM_HighSinkODCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IRTIM_HighSinkODCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "46",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+    },
+    "name": "IRTIM_HighSinkODCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IRTIM_GetStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FunctionalState IRTIM_GetStatus(void)",
+    "location": {
+      "column": "17",
+      "line": "49",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+    },
+    "name": "IRTIM_GetStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IRTIM_GetHighSinkODStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FunctionalState IRTIM_GetHighSinkODStatus(void)",
+    "location": {
+      "column": "17",
+      "line": "50",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
+    },
+    "name": "IRTIM_GetHighSinkODStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:IWDG.c@1042@macro@RELOAD_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -78583,90 +78793,6 @@
     },
     "name": "_DLIB_STRTOD_HEX_FLOAT",
     "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_irtim.h@1172@macro@__STM8L15x_IRTIM_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8L15x_IRTIM_H",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
-    },
-    "name": "__STM8L15x_IRTIM_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IRTIM_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IRTIM_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "44",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
-    },
-    "name": "IRTIM_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IRTIM_Cmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IRTIM_Cmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "45",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
-    },
-    "name": "IRTIM_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IRTIM_HighSinkODCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IRTIM_HighSinkODCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "46",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
-    },
-    "name": "IRTIM_HighSinkODCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IRTIM_GetStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FunctionalState IRTIM_GetStatus(void)",
-    "location": {
-      "column": "17",
-      "line": "49",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
-    },
-    "name": "IRTIM_GetStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IRTIM_GetHighSinkODStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FunctionalState IRTIM_GetHighSinkODStatus(void)",
-    "location": {
-      "column": "17",
-      "line": "50",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_irtim.h"
-    },
-    "name": "IRTIM_GetHighSinkODStatus",
-    "origin": "user_include",
     "scope": null
   },
   {
@@ -102022,6 +102148,398 @@
     "scope": null
   },
   {
+    "ID": "c:@F@ADC_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_DeInit(ADC_TypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "129",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_Init(ADC_TypeDef *, ADC_ConversionMode_TypeDef, ADC_Resolution_TypeDef, ADC_Prescaler_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "180",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_Cmd(ADC_TypeDef *, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "210",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_SoftwareStartConv",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_SoftwareStartConv(ADC_TypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "233",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_SoftwareStartConv",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_ExternalTrigConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_ExternalTrigConfig(ADC_TypeDef *, ADC_ExtEventSelection_TypeDef, ADC_ExtTRGSensitivity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "255",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_ExternalTrigConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_AnalogWatchdogChannelSelect",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_AnalogWatchdogChannelSelect(ADC_TypeDef *, ADC_AnalogWatchdogSelection_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "333",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_AnalogWatchdogChannelSelect",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_AnalogWatchdogThresholdsConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_AnalogWatchdogThresholdsConfig(ADC_TypeDef *, uint16_t, uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "355",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_AnalogWatchdogThresholdsConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_AnalogWatchdogConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_AnalogWatchdogConfig(ADC_TypeDef *, ADC_AnalogWatchdogSelection_TypeDef, uint16_t, uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "406",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_AnalogWatchdogConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_TempSensorCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_TempSensorCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "468",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_TempSensorCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_VrefintCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_VrefintCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "491",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_VrefintCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_ChannelCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_ChannelCmd(ADC_TypeDef *, ADC_Channel_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "577",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_ChannelCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_adc.c@26184@F@ADC_ChannelCmd@regindex",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "regindex",
+    "location": {
+      "column": "11",
+      "line": "579",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "regindex",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_SamplingTimeConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_SamplingTimeConfig(ADC_TypeDef *, ADC_Group_TypeDef, ADC_SamplingTime_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "619",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_SamplingTimeConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_SchmittTriggerConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_SchmittTriggerConfig(ADC_TypeDef *, ADC_Channel_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "685",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_SchmittTriggerConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_adc.c@31136@F@ADC_SchmittTriggerConfig@regindex",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "regindex",
+    "location": {
+      "column": "11",
+      "line": "688",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "regindex",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_GetConversionValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint16_t ADC_GetConversionValue(ADC_TypeDef *)",
+    "location": {
+      "column": "10",
+      "line": "711",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_GetConversionValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_adc.c@31850@F@ADC_GetConversionValue@tmpreg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tmpreg",
+    "location": {
+      "column": "12",
+      "line": "713",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "tmpreg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_DMACmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_DMACmd(ADC_TypeDef *, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "754",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_DMACmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_ITConfig(ADC_TypeDef *, ADC_IT_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "825",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "FlagStatus ADC_GetFlagStatus(ADC_TypeDef *, ADC_FLAG_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "853",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_adc.c@36904@F@ADC_GetFlagStatus@flagstatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "flagstatus",
+    "location": {
+      "column": "14",
+      "line": "855",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "flagstatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_ClearFlag(ADC_TypeDef *, ADC_FLAG_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "886",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "ITStatus ADC_GetITStatus(ADC_TypeDef *, ADC_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "906",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_adc.c@38599@F@ADC_GetITStatus@itstatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itstatus",
+    "location": {
+      "column": "12",
+      "line": "909",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "itstatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_adc.c@38629@F@ADC_GetITStatus@itmask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itmask",
+    "location": {
+      "column": "11",
+      "line": "910",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "itmask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_adc.c@38629@F@ADC_GetITStatus@enablestatus",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "enablestatus",
+    "location": {
+      "column": "23",
+      "line": "910",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "enablestatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_ClearITPendingBit(ADC_TypeDef *, ADC_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "949",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "ADC_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_adc.c@39936@F@ADC_ClearITPendingBit@itmask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itmask",
+    "location": {
+      "column": "11",
+      "line": "952",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+    },
+    "name": "itmask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@SYSDivFactor",
     "What": "Variable",
     "defdec": "Def",
@@ -102858,6 +103376,356 @@
       "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_dma.c"
     },
     "name": "DMA_Channelx",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "117",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetPinSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SetPinSensitivity(EXTI_Pin_TypeDef, EXTI_Trigger_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "154",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_SetPinSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SelectPort",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SelectPort(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "213",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_SelectPort",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetHalfPortSelection",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SetHalfPortSelection(EXTI_HalfPort_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "274",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_SetHalfPortSelection",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetPortSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SetPortSensitivity(EXTI_Port_TypeDef, EXTI_Trigger_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "332",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_SetPortSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetPinSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "EXTI_Trigger_TypeDef EXTI_GetPinSensitivity(EXTI_Pin_TypeDef)",
+    "location": {
+      "column": "22",
+      "line": "370",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_GetPinSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_exti.c@15297@F@EXTI_GetPinSensitivity@value",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "value",
+    "location": {
+      "column": "11",
+      "line": "372",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "value",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetPortSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "EXTI_Trigger_TypeDef EXTI_GetPortSensitivity(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "22",
+      "line": "421",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_GetPortSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_exti.c@17077@F@EXTI_GetPortSensitivity@portsensitivity",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "portsensitivity",
+    "location": {
+      "column": "11",
+      "line": "423",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "portsensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "ITStatus EXTI_GetITStatus(EXTI_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "481",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_exti.c@19072@F@EXTI_GetITStatus@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "12",
+      "line": "483",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_ClearITPendingBit(EXTI_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "518",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_exti.c@20402@F@EXTI_ClearITPendingBit@tempvalue",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tempvalue",
+    "location": {
+      "column": "12",
+      "line": "520",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "tempvalue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_DeInit(GPIO_TypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "90",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_Init(GPIO_TypeDef *, uint8_t, GPIO_Mode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "127",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ExternalPullUpConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_ExternalPullUpConfig(GPIO_TypeDef *, uint8_t, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "203",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ExternalPullUpConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_Write",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_Write(GPIO_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "242",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_Write",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_WriteBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_WriteBit(GPIO_TypeDef *, GPIO_Pin_TypeDef, BitAction)",
+    "location": {
+      "column": "6",
+      "line": "264",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_WriteBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_SetBits",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_SetBits(GPIO_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "297",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_SetBits",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ResetBits",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_ResetBits(GPIO_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "318",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ResetBits",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ToggleBits",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_ToggleBits(GPIO_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "330",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ToggleBits",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadInputData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t GPIO_ReadInputData(GPIO_TypeDef *)",
+    "location": {
+      "column": "9",
+      "line": "341",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ReadInputData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadOutputData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t GPIO_ReadOutputData(GPIO_TypeDef *)",
+    "location": {
+      "column": "9",
+      "line": "352",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ReadOutputData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadInputDataBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "BitStatus GPIO_ReadInputDataBit(GPIO_TypeDef *, GPIO_Pin_TypeDef)",
+    "location": {
+      "column": "11",
+      "line": "372",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ReadInputDataBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadOutputDataBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "BitStatus GPIO_ReadOutputDataBit(GPIO_TypeDef *, GPIO_Pin_TypeDef)",
+    "location": {
+      "column": "11",
+      "line": "383",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ReadOutputDataBit",
     "origin": "project_file",
     "scope": null
   },
@@ -103702,562 +104570,450 @@
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_DeInit",
+    "ID": "c:@F@IWDG_WriteAccessCmd",
     "What": "Function",
     "defdec": "Def",
-    "display": "void ADC_DeInit(ADC_TypeDef *)",
+    "display": "void IWDG_WriteAccessCmd(IWDG_WriteAccess_TypeDef)",
     "location": {
       "column": "6",
-      "line": "129",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "122",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
     },
-    "name": "ADC_DeInit",
+    "name": "IWDG_WriteAccessCmd",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_Init",
+    "ID": "c:@F@IWDG_SetPrescaler",
     "What": "Function",
     "defdec": "Def",
-    "display": "void ADC_Init(ADC_TypeDef *, ADC_ConversionMode_TypeDef, ADC_Resolution_TypeDef, ADC_Prescaler_TypeDef)",
+    "display": "void IWDG_SetPrescaler(IWDG_Prescaler_TypeDef)",
     "location": {
       "column": "6",
-      "line": "180",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "142",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
     },
-    "name": "ADC_Init",
+    "name": "IWDG_SetPrescaler",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_Cmd",
+    "ID": "c:@F@IWDG_SetReload",
     "What": "Function",
     "defdec": "Def",
-    "display": "void ADC_Cmd(ADC_TypeDef *, FunctionalState)",
+    "display": "void IWDG_SetReload(uint8_t)",
     "location": {
       "column": "6",
-      "line": "210",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "156",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
     },
-    "name": "ADC_Cmd",
+    "name": "IWDG_SetReload",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_SoftwareStartConv",
+    "ID": "c:@F@IWDG_ReloadCounter",
     "What": "Function",
     "defdec": "Def",
-    "display": "void ADC_SoftwareStartConv(ADC_TypeDef *)",
+    "display": "void IWDG_ReloadCounter(void)",
     "location": {
       "column": "6",
-      "line": "233",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "167",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
     },
-    "name": "ADC_SoftwareStartConv",
+    "name": "IWDG_ReloadCounter",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_ExternalTrigConfig",
+    "ID": "c:@F@IWDG_Enable",
     "What": "Function",
     "defdec": "Def",
-    "display": "void ADC_ExternalTrigConfig(ADC_TypeDef *, ADC_ExtEventSelection_TypeDef, ADC_ExtTRGSensitivity_TypeDef)",
+    "display": "void IWDG_Enable(void)",
     "location": {
       "column": "6",
+      "line": "193",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
+    },
+    "name": "IWDG_Enable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWR_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PWR_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "76",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
+    },
+    "name": "PWR_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWR_PVDLevelConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PWR_PVDLevelConfig(PWR_PVDLevel_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "96",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
+    },
+    "name": "PWR_PVDLevelConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWR_PVDCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PWR_PVDCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "115",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
+    },
+    "name": "PWR_PVDCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWR_FastWakeUpCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PWR_FastWakeUpCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "165",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
+    },
+    "name": "PWR_FastWakeUpCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWR_UltraLowPowerCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PWR_UltraLowPowerCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "188",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
+    },
+    "name": "PWR_UltraLowPowerCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWR_PVDITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PWR_PVDITConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "226",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
+    },
+    "name": "PWR_PVDITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWR_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "FlagStatus PWR_GetFlagStatus(PWR_FLAG_TypeDef)",
+    "location": {
+      "column": "12",
       "line": "255",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
     },
-    "name": "ADC_ExternalTrigConfig",
+    "name": "PWR_GetFlagStatus",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_AnalogWatchdogChannelSelect",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_AnalogWatchdogChannelSelect(ADC_TypeDef *, ADC_AnalogWatchdogSelection_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "333",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_AnalogWatchdogChannelSelect",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_AnalogWatchdogThresholdsConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_AnalogWatchdogThresholdsConfig(ADC_TypeDef *, uint16_t, uint16_t)",
-    "location": {
-      "column": "6",
-      "line": "355",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_AnalogWatchdogThresholdsConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_AnalogWatchdogConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_AnalogWatchdogConfig(ADC_TypeDef *, ADC_AnalogWatchdogSelection_TypeDef, uint16_t, uint16_t)",
-    "location": {
-      "column": "6",
-      "line": "406",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_AnalogWatchdogConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_TempSensorCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_TempSensorCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "468",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_TempSensorCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_VrefintCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_VrefintCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "491",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_VrefintCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_ChannelCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_ChannelCmd(ADC_TypeDef *, ADC_Channel_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "577",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_ChannelCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_adc.c@26184@F@ADC_ChannelCmd@regindex",
+    "ID": "c:stm8l15x_pwr.c@9027@F@PWR_GetFlagStatus@bitstatus",
     "What": "Variable",
     "defdec": "Def",
-    "display": "regindex",
-    "location": {
-      "column": "11",
-      "line": "579",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "regindex",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_SamplingTimeConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_SamplingTimeConfig(ADC_TypeDef *, ADC_Group_TypeDef, ADC_SamplingTime_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "619",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_SamplingTimeConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_SchmittTriggerConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_SchmittTriggerConfig(ADC_TypeDef *, ADC_Channel_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "685",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_SchmittTriggerConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_adc.c@31136@F@ADC_SchmittTriggerConfig@regindex",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "regindex",
-    "location": {
-      "column": "11",
-      "line": "688",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "regindex",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_GetConversionValue",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint16_t ADC_GetConversionValue(ADC_TypeDef *)",
-    "location": {
-      "column": "10",
-      "line": "711",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_GetConversionValue",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_adc.c@31850@F@ADC_GetConversionValue@tmpreg",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "tmpreg",
-    "location": {
-      "column": "12",
-      "line": "713",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "tmpreg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_DMACmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_DMACmd(ADC_TypeDef *, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "754",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_DMACmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_ITConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_ITConfig(ADC_TypeDef *, ADC_IT_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "825",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_ITConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "FlagStatus ADC_GetFlagStatus(ADC_TypeDef *, ADC_FLAG_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "853",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_GetFlagStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_adc.c@36904@F@ADC_GetFlagStatus@flagstatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "flagstatus",
+    "display": "bitstatus",
     "location": {
       "column": "14",
-      "line": "855",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "257",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
     },
-    "name": "flagstatus",
+    "name": "bitstatus",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_ClearFlag",
+    "ID": "c:@F@PWR_PVDClearFlag",
     "What": "Function",
     "defdec": "Def",
-    "display": "void ADC_ClearFlag(ADC_TypeDef *, ADC_FLAG_TypeDef)",
+    "display": "void PWR_PVDClearFlag(void)",
     "location": {
       "column": "6",
-      "line": "886",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "294",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
     },
-    "name": "ADC_ClearFlag",
+    "name": "PWR_PVDClearFlag",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_GetITStatus",
+    "ID": "c:@F@PWR_PVDGetITStatus",
     "What": "Function",
     "defdec": "Def",
-    "display": "ITStatus ADC_GetITStatus(ADC_TypeDef *, ADC_IT_TypeDef)",
+    "display": "ITStatus PWR_PVDGetITStatus(void)",
     "location": {
       "column": "10",
-      "line": "906",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "305",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
     },
-    "name": "ADC_GetITStatus",
+    "name": "PWR_PVDGetITStatus",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_adc.c@38599@F@ADC_GetITStatus@itstatus",
+    "ID": "c:stm8l15x_pwr.c@9956@F@PWR_PVDGetITStatus@bitstatus",
     "What": "Variable",
     "defdec": "Def",
-    "display": "itstatus",
+    "display": "bitstatus",
     "location": {
       "column": "12",
-      "line": "909",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "307",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
     },
-    "name": "itstatus",
+    "name": "bitstatus",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_adc.c@38629@F@ADC_GetITStatus@itmask",
+    "ID": "c:stm8l15x_pwr.c@9989@F@PWR_PVDGetITStatus@PVD_itStatus",
     "What": "Variable",
     "defdec": "Def",
-    "display": "itmask",
+    "display": "PVD_itStatus",
     "location": {
       "column": "11",
-      "line": "910",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "line": "309",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
     },
-    "name": "itmask",
+    "name": "PVD_itStatus",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_adc.c@38629@F@ADC_GetITStatus@enablestatus",
+    "ID": "c:stm8l15x_pwr.c@9989@F@PWR_PVDGetITStatus@PVD_itEnable",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "enablestatus",
+    "display": "PVD_itEnable",
     "location": {
-      "column": "23",
-      "line": "910",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
+      "column": "31",
+      "line": "309",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
     },
-    "name": "enablestatus",
+    "name": "PVD_itEnable",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_ClearITPendingBit",
+    "ID": "c:@F@PWR_PVDClearITPendingBit",
     "What": "Function",
     "defdec": "Def",
-    "display": "void ADC_ClearITPendingBit(ADC_TypeDef *, ADC_IT_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "949",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "ADC_ClearITPendingBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_adc.c@39936@F@ADC_ClearITPendingBit@itmask",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "itmask",
-    "location": {
-      "column": "11",
-      "line": "952",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_adc.c"
-    },
-    "name": "itmask",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_DeInit(GPIO_TypeDef *)",
-    "location": {
-      "column": "6",
-      "line": "90",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_Init(GPIO_TypeDef *, uint8_t, GPIO_Mode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "127",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ExternalPullUpConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_ExternalPullUpConfig(GPIO_TypeDef *, uint8_t, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "203",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ExternalPullUpConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_Write",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_Write(GPIO_TypeDef *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "242",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_Write",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_WriteBit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_WriteBit(GPIO_TypeDef *, GPIO_Pin_TypeDef, BitAction)",
-    "location": {
-      "column": "6",
-      "line": "264",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_WriteBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_SetBits",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_SetBits(GPIO_TypeDef *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "297",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_SetBits",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ResetBits",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_ResetBits(GPIO_TypeDef *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "318",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ResetBits",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ToggleBits",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_ToggleBits(GPIO_TypeDef *, uint8_t)",
+    "display": "void PWR_PVDClearITPendingBit(void)",
     "location": {
       "column": "6",
       "line": "330",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
     },
-    "name": "GPIO_ToggleBits",
+    "name": "PWR_PVDClearITPendingBit",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@GPIO_ReadInputData",
+    "ID": "c:@F@ITC_GetCPUCC",
     "What": "Function",
     "defdec": "Def",
-    "display": "uint8_t GPIO_ReadInputData(GPIO_TypeDef *)",
+    "display": "uint8_t ITC_GetCPUCC(void)",
     "location": {
       "column": "9",
-      "line": "341",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+      "line": "50",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
     },
-    "name": "GPIO_ReadInputData",
+    "name": "ITC_GetCPUCC",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@GPIO_ReadOutputData",
+    "ID": "c:@F@ITC_DeInit",
     "What": "Function",
     "defdec": "Def",
-    "display": "uint8_t GPIO_ReadOutputData(GPIO_TypeDef *)",
+    "display": "void ITC_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "81",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
+    },
+    "name": "ITC_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftIntStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t ITC_GetSoftIntStatus(void)",
     "location": {
       "column": "9",
-      "line": "352",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+      "line": "98",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
     },
-    "name": "GPIO_ReadOutputData",
+    "name": "ITC_GetSoftIntStatus",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@GPIO_ReadInputDataBit",
+    "ID": "c:@F@ITC_GetSoftwarePriority",
     "What": "Function",
     "defdec": "Def",
-    "display": "BitStatus GPIO_ReadInputDataBit(GPIO_TypeDef *, GPIO_Pin_TypeDef)",
+    "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(IRQn_TypeDef)",
     "location": {
-      "column": "11",
-      "line": "372",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+      "column": "27",
+      "line": "108",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
     },
-    "name": "GPIO_ReadInputDataBit",
+    "name": "ITC_GetSoftwarePriority",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@GPIO_ReadOutputDataBit",
-    "What": "Function",
+    "ID": "c:stm8l15x_itc.c@3795@F@ITC_GetSoftwarePriority@Value",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "BitStatus GPIO_ReadOutputDataBit(GPIO_TypeDef *, GPIO_Pin_TypeDef)",
+    "display": "Value",
     "location": {
       "column": "11",
-      "line": "383",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+      "line": "110",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
     },
-    "name": "GPIO_ReadOutputDataBit",
+    "name": "Value",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_itc.c@3817@F@ITC_GetSoftwarePriority@Mask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Mask",
+    "location": {
+      "column": "11",
+      "line": "111",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
+    },
+    "name": "Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_SetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ITC_SetSoftwarePriority(IRQn_TypeDef, ITC_PriorityLevel_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "241",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
+    },
+    "name": "ITC_SetSoftwarePriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_itc.c@8074@F@ITC_SetSoftwarePriority@Mask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Mask",
+    "location": {
+      "column": "11",
+      "line": "243",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
+    },
+    "name": "Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_itc.c@8095@F@ITC_SetSoftwarePriority@NewPriority",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "NewPriority",
+    "location": {
+      "column": "11",
+      "line": "244",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
+    },
+    "name": "NewPriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_rst.c@2474@macro@RST_CR_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RST_CR_MASK",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_rst.c"
+    },
+    "name": "RST_CR_MASK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RST_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "FlagStatus RST_GetFlagStatus(RST_FLAG_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "93",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_rst.c"
+    },
+    "name": "RST_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RST_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void RST_ClearFlag(RST_FLAG_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "115",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_rst.c"
+    },
+    "name": "RST_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RST_GPOutputEnable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void RST_GPOutputEnable(void)",
+    "location": {
+      "column": "6",
+      "line": "144",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_rst.c"
+    },
+    "name": "RST_GPOutputEnable",
     "origin": "project_file",
     "scope": null
   },
@@ -105676,454 +106432,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@ITC_GetCPUCC",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t ITC_GetCPUCC(void)",
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "ITC_GetCPUCC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ITC_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "81",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "ITC_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetSoftIntStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t ITC_GetSoftIntStatus(void)",
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "ITC_GetSoftIntStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetSoftwarePriority",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(IRQn_TypeDef)",
-    "location": {
-      "column": "27",
-      "line": "108",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "ITC_GetSoftwarePriority",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_itc.c@3795@F@ITC_GetSoftwarePriority@Value",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Value",
-    "location": {
-      "column": "11",
-      "line": "110",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "Value",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_itc.c@3817@F@ITC_GetSoftwarePriority@Mask",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Mask",
-    "location": {
-      "column": "11",
-      "line": "111",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "Mask",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_SetSoftwarePriority",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ITC_SetSoftwarePriority(IRQn_TypeDef, ITC_PriorityLevel_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "241",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "ITC_SetSoftwarePriority",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_itc.c@8074@F@ITC_SetSoftwarePriority@Mask",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Mask",
-    "location": {
-      "column": "11",
-      "line": "243",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "Mask",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_itc.c@8095@F@ITC_SetSoftwarePriority@NewPriority",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "NewPriority",
-    "location": {
-      "column": "11",
-      "line": "244",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_itc.c"
-    },
-    "name": "NewPriority",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PWR_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "76",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_PVDLevelConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PWR_PVDLevelConfig(PWR_PVDLevel_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "96",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_PVDLevelConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_PVDCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PWR_PVDCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "115",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_PVDCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_FastWakeUpCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PWR_FastWakeUpCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "165",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_FastWakeUpCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_UltraLowPowerCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PWR_UltraLowPowerCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "188",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_UltraLowPowerCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_PVDITConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PWR_PVDITConfig(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "226",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_PVDITConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "FlagStatus PWR_GetFlagStatus(PWR_FLAG_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "255",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_GetFlagStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_pwr.c@9027@F@PWR_GetFlagStatus@bitstatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "bitstatus",
-    "location": {
-      "column": "14",
-      "line": "257",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "bitstatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_PVDClearFlag",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PWR_PVDClearFlag(void)",
-    "location": {
-      "column": "6",
-      "line": "294",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_PVDClearFlag",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_PVDGetITStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "ITStatus PWR_PVDGetITStatus(void)",
-    "location": {
-      "column": "10",
-      "line": "305",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_PVDGetITStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_pwr.c@9956@F@PWR_PVDGetITStatus@bitstatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "bitstatus",
-    "location": {
-      "column": "12",
-      "line": "307",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "bitstatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_pwr.c@9989@F@PWR_PVDGetITStatus@PVD_itStatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "PVD_itStatus",
-    "location": {
-      "column": "11",
-      "line": "309",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PVD_itStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_pwr.c@9989@F@PWR_PVDGetITStatus@PVD_itEnable",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "PVD_itEnable",
-    "location": {
-      "column": "31",
-      "line": "309",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PVD_itEnable",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWR_PVDClearITPendingBit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PWR_PVDClearITPendingBit(void)",
-    "location": {
-      "column": "6",
-      "line": "330",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_pwr.c"
-    },
-    "name": "PWR_PVDClearITPendingBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_rst.c@2474@macro@RST_CR_MASK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RST_CR_MASK",
-    "location": {
-      "column": "9",
-      "line": "59",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_rst.c"
-    },
-    "name": "RST_CR_MASK",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "FlagStatus RST_GetFlagStatus(RST_FLAG_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "93",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_rst.c"
-    },
-    "name": "RST_GetFlagStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_ClearFlag",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void RST_ClearFlag(RST_FLAG_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "115",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_rst.c"
-    },
-    "name": "RST_ClearFlag",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@RST_GPOutputEnable",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void RST_GPOutputEnable(void)",
-    "location": {
-      "column": "6",
-      "line": "144",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_rst.c"
-    },
-    "name": "RST_GPOutputEnable",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_WriteAccessCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void IWDG_WriteAccessCmd(IWDG_WriteAccess_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "122",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
-    },
-    "name": "IWDG_WriteAccessCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_SetPrescaler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void IWDG_SetPrescaler(IWDG_Prescaler_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "142",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
-    },
-    "name": "IWDG_SetPrescaler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_SetReload",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void IWDG_SetReload(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "156",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
-    },
-    "name": "IWDG_SetReload",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_ReloadCounter",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void IWDG_ReloadCounter(void)",
-    "location": {
-      "column": "6",
-      "line": "167",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
-    },
-    "name": "IWDG_ReloadCounter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_Enable",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void IWDG_Enable(void)",
-    "location": {
-      "column": "6",
-      "line": "193",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_iwdg.c"
-    },
-    "name": "IWDG_Enable",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@TIM4_DeInit",
     "What": "Function",
     "defdec": "Def",
@@ -106568,6 +106876,384 @@
       "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_tim4.c"
     },
     "name": "TIM4_SelectMasterSlaveMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_DeInit(SPI_TypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "122",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_Init(SPI_TypeDef *, SPI_FirstBit_TypeDef, SPI_BaudRatePrescaler_TypeDef, SPI_Mode_TypeDef, SPI_CPOL_TypeDef, SPI_CPHA_TypeDef, SPI_DirectionMode_TypeDef, SPI_NSS_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "171",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_Cmd(SPI_TypeDef *, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "219",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_NSSInternalSoftwareCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_NSSInternalSoftwareCmd(SPI_TypeDef *, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "241",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_NSSInternalSoftwareCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_BiDirectionalLineConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_BiDirectionalLineConfig(SPI_TypeDef *, SPI_Direction_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "265",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_BiDirectionalLineConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_SendData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_SendData(SPI_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "313",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_SendData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ReceiveData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t SPI_ReceiveData(SPI_TypeDef *)",
+    "location": {
+      "column": "9",
+      "line": "323",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_ReceiveData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_TransmitCRC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_TransmitCRC(SPI_TypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "408",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_TransmitCRC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_CalculateCRCCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_CalculateCRCCmd(SPI_TypeDef *, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "420",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_CalculateCRCCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_GetCRC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t SPI_GetCRC(SPI_TypeDef *, SPI_CRC_TypeDef)",
+    "location": {
+      "column": "9",
+      "line": "447",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_GetCRC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@19008@F@SPI_GetCRC@crcreg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "crcreg",
+    "location": {
+      "column": "11",
+      "line": "449",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "crcreg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ResetCRC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_ResetCRC(SPI_TypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "472",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_ResetCRC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_GetCRCPolynomial",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t SPI_GetCRCPolynomial(SPI_TypeDef *)",
+    "location": {
+      "column": "9",
+      "line": "487",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_GetCRCPolynomial",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_DMACmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_DMACmd(SPI_TypeDef *, SPI_DMAReq_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "519",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_DMACmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_ITConfig(SPI_TypeDef *, SPI_IT_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "620",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@25526@F@SPI_ITConfig@itpos",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itpos",
+    "location": {
+      "column": "11",
+      "line": "622",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "itpos",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "FlagStatus SPI_GetFlagStatus(SPI_TypeDef *, SPI_FLAG_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "655",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@26737@F@SPI_GetFlagStatus@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "14",
+      "line": "657",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_ClearFlag(SPI_TypeDef *, SPI_FLAG_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "690",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "ITStatus SPI_GetITStatus(SPI_TypeDef *, SPI_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "711",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@28742@F@SPI_GetITStatus@pendingbitstatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pendingbitstatus",
+    "location": {
+      "column": "12",
+      "line": "713",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "pendingbitstatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@28780@F@SPI_GetITStatus@itpos",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itpos",
+    "location": {
+      "column": "11",
+      "line": "714",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "itpos",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@28802@F@SPI_GetITStatus@itmask1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itmask1",
+    "location": {
+      "column": "11",
+      "line": "715",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "itmask1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@28826@F@SPI_GetITStatus@itmask2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itmask2",
+    "location": {
+      "column": "11",
+      "line": "716",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "itmask2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@28850@F@SPI_GetITStatus@enablestatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "enablestatus",
+    "location": {
+      "column": "16",
+      "line": "717",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "enablestatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_ClearITPendingBit(SPI_TypeDef *, SPI_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "758",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "SPI_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_spi.c@30522@F@SPI_ClearITPendingBit@itpos",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itpos",
+    "location": {
+      "column": "11",
+      "line": "760",
+      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
+    },
+    "name": "itpos",
     "origin": "project_file",
     "scope": null
   },
@@ -107104,384 +107790,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@SPI_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_DeInit(SPI_TypeDef *)",
-    "location": {
-      "column": "6",
-      "line": "122",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_Init(SPI_TypeDef *, SPI_FirstBit_TypeDef, SPI_BaudRatePrescaler_TypeDef, SPI_Mode_TypeDef, SPI_CPOL_TypeDef, SPI_CPHA_TypeDef, SPI_DirectionMode_TypeDef, SPI_NSS_TypeDef, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "171",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_Cmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_Cmd(SPI_TypeDef *, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "219",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_Cmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_NSSInternalSoftwareCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_NSSInternalSoftwareCmd(SPI_TypeDef *, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "241",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_NSSInternalSoftwareCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_BiDirectionalLineConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_BiDirectionalLineConfig(SPI_TypeDef *, SPI_Direction_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "265",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_BiDirectionalLineConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_SendData",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_SendData(SPI_TypeDef *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "313",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_SendData",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_ReceiveData",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t SPI_ReceiveData(SPI_TypeDef *)",
-    "location": {
-      "column": "9",
-      "line": "323",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_ReceiveData",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_TransmitCRC",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_TransmitCRC(SPI_TypeDef *)",
-    "location": {
-      "column": "6",
-      "line": "408",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_TransmitCRC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_CalculateCRCCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_CalculateCRCCmd(SPI_TypeDef *, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "420",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_CalculateCRCCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_GetCRC",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t SPI_GetCRC(SPI_TypeDef *, SPI_CRC_TypeDef)",
-    "location": {
-      "column": "9",
-      "line": "447",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_GetCRC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@19008@F@SPI_GetCRC@crcreg",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "crcreg",
-    "location": {
-      "column": "11",
-      "line": "449",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "crcreg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_ResetCRC",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_ResetCRC(SPI_TypeDef *)",
-    "location": {
-      "column": "6",
-      "line": "472",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_ResetCRC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_GetCRCPolynomial",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t SPI_GetCRCPolynomial(SPI_TypeDef *)",
-    "location": {
-      "column": "9",
-      "line": "487",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_GetCRCPolynomial",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_DMACmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_DMACmd(SPI_TypeDef *, SPI_DMAReq_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "519",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_DMACmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_ITConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_ITConfig(SPI_TypeDef *, SPI_IT_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "620",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_ITConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@25526@F@SPI_ITConfig@itpos",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "itpos",
-    "location": {
-      "column": "11",
-      "line": "622",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "itpos",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "FlagStatus SPI_GetFlagStatus(SPI_TypeDef *, SPI_FLAG_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "655",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_GetFlagStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@26737@F@SPI_GetFlagStatus@status",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "status",
-    "location": {
-      "column": "14",
-      "line": "657",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "status",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_ClearFlag",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_ClearFlag(SPI_TypeDef *, SPI_FLAG_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "690",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_ClearFlag",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_GetITStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "ITStatus SPI_GetITStatus(SPI_TypeDef *, SPI_IT_TypeDef)",
-    "location": {
-      "column": "10",
-      "line": "711",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_GetITStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@28742@F@SPI_GetITStatus@pendingbitstatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pendingbitstatus",
-    "location": {
-      "column": "12",
-      "line": "713",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "pendingbitstatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@28780@F@SPI_GetITStatus@itpos",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "itpos",
-    "location": {
-      "column": "11",
-      "line": "714",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "itpos",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@28802@F@SPI_GetITStatus@itmask1",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "itmask1",
-    "location": {
-      "column": "11",
-      "line": "715",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "itmask1",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@28826@F@SPI_GetITStatus@itmask2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "itmask2",
-    "location": {
-      "column": "11",
-      "line": "716",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "itmask2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@28850@F@SPI_GetITStatus@enablestatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "enablestatus",
-    "location": {
-      "column": "16",
-      "line": "717",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "enablestatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_ClearITPendingBit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_ClearITPendingBit(SPI_TypeDef *, SPI_IT_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "758",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "SPI_ClearITPendingBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_spi.c@30522@F@SPI_ClearITPendingBit@itpos",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "itpos",
-    "location": {
-      "column": "11",
-      "line": "760",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_spi.c"
-    },
-    "name": "itpos",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@SYSCFG_RIDeInit",
     "What": "Function",
     "defdec": "Def",
@@ -108000,27 +108308,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1503@F@main@si4432_Send",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "si4432_Send",
-    "location": {
-      "column": "11",
-      "line": "41",
-      "path": "D:\\stm8L\\send\\stm8l-lora\\SENSOR_MDK\\main.c"
-    },
-    "name": "si4432_Send",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@HardWare_Init",
     "What": "Function",
     "defdec": "Def",
     "display": "void HardWare_Init(void)",
     "location": {
       "column": "6",
-      "line": "74",
+      "line": "59",
       "path": "D:\\stm8L\\send\\stm8l-lora\\SENSOR_MDK\\main.c"
     },
     "name": "HardWare_Init",
@@ -108034,7 +108328,7 @@
     "display": "void SX1278_SEND(void)",
     "location": {
       "column": "6",
-      "line": "84",
+      "line": "69",
       "path": "D:\\stm8L\\send\\stm8l-lora\\SENSOR_MDK\\main.c"
     },
     "name": "SX1278_SEND",
@@ -108042,13 +108336,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2738@F@SX1278_SEND@si4432_Send",
+    "ID": "c:main.c@2218@F@SX1278_SEND@si4432_Send",
     "What": "Variable",
     "defdec": "Def",
     "display": "si4432_Send",
     "location": {
       "column": "11",
-      "line": "87",
+      "line": "72",
       "path": "D:\\stm8L\\send\\stm8l-lora\\SENSOR_MDK\\main.c"
     },
     "name": "si4432_Send",

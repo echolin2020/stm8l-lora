@@ -28,6 +28,7 @@ build USART.pbi : index USART.xcl
 build stm8l15x_adc.pbi : index stm8l15x_adc.xcl
 build stm8l15x_clk.pbi : index stm8l15x_clk.xcl
 build stm8l15x_dma.pbi : index stm8l15x_dma.xcl
+build stm8l15x_exti.pbi : index stm8l15x_exti.xcl
 build stm8l15x_gpio.pbi : index stm8l15x_gpio.xcl
 build stm8l15x_i2c.pbi : index stm8l15x_i2c.xcl
 build stm8l15x_itc.pbi : index stm8l15x_itc.xcl
@@ -44,10 +45,10 @@ build delay.pbi : index delay.xcl
 build rtc.pbi : index rtc.xcl
 build main.pbi : index main.xcl
 build SensorMdk_part0.pbi : link stm8l15x_it.pbi IWDG.pbi sprintf.pbi SX1278.pbi USART.pbi
-build SensorMdk_part1.pbi : link stm8l15x_adc.pbi stm8l15x_clk.pbi stm8l15x_dma.pbi stm8l15x_gpio.pbi stm8l15x_i2c.pbi
-build SensorMdk_part2.pbi : link stm8l15x_itc.pbi stm8l15x_iwdg.pbi stm8l15x_pwr.pbi stm8l15x_rst.pbi stm8l15x_rtc.pbi
-build SensorMdk_part3.pbi : link stm8l15x_spi.pbi stm8l15x_syscfg.pbi stm8l15x_tim4.pbi stm8l15x_usart.pbi stm8l15x_wwdg.pbi
-build SensorMdk_part4.pbi : link delay.pbi rtc.pbi main.pbi
+build SensorMdk_part1.pbi : link stm8l15x_adc.pbi stm8l15x_clk.pbi stm8l15x_dma.pbi stm8l15x_exti.pbi stm8l15x_gpio.pbi
+build SensorMdk_part2.pbi : link stm8l15x_i2c.pbi stm8l15x_itc.pbi stm8l15x_iwdg.pbi stm8l15x_pwr.pbi stm8l15x_rst.pbi
+build SensorMdk_part3.pbi : link stm8l15x_rtc.pbi stm8l15x_spi.pbi stm8l15x_syscfg.pbi stm8l15x_tim4.pbi stm8l15x_usart.pbi
+build SensorMdk_part4.pbi : link stm8l15x_wwdg.pbi delay.pbi rtc.pbi main.pbi
 build SensorMdk.pbd : link SensorMdk_part0.pbi SensorMdk_part1.pbi SensorMdk_part2.pbi SensorMdk_part3.pbi SensorMdk_part4.pbi
 build SensorMdk.pbw : browsedata SensorMdk.pbd
 
