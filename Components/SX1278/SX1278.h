@@ -114,6 +114,33 @@
 #define IRQN_SEELP_Value                             0xFF
 #define PACKET_MIAX_Value                            0xff
 
+/*!
+ * RegDioMapping1
+ */
+#define RFLR_DIOMAPPING1_DIO0_MASK                  0x3F
+#define RFLR_DIOMAPPING1_DIO0_00                    0x00  // Default
+#define RFLR_DIOMAPPING1_DIO0_01                    0x40
+#define RFLR_DIOMAPPING1_DIO0_10                    0x80
+#define RFLR_DIOMAPPING1_DIO0_11                    0xC0
+
+#define RFLR_DIOMAPPING1_DIO1_MASK                  0xCF
+#define RFLR_DIOMAPPING1_DIO1_00                    0x00  // Default
+#define RFLR_DIOMAPPING1_DIO1_01                    0x10
+#define RFLR_DIOMAPPING1_DIO1_10                    0x20
+#define RFLR_DIOMAPPING1_DIO1_11                    0x30
+
+#define RFLR_DIOMAPPING1_DIO2_MASK                  0xF3
+#define RFLR_DIOMAPPING1_DIO2_00                    0x00  // Default
+#define RFLR_DIOMAPPING1_DIO2_01                    0x04
+#define RFLR_DIOMAPPING1_DIO2_10                    0x08
+#define RFLR_DIOMAPPING1_DIO2_11                    0x0C
+
+#define RFLR_DIOMAPPING1_DIO3_MASK                  0xFC
+#define RFLR_DIOMAPPING1_DIO3_00                    0x00  // Default
+#define RFLR_DIOMAPPING1_DIO3_01                    0x01
+#define RFLR_DIOMAPPING1_DIO3_10                    0x02
+#define RFLR_DIOMAPPING1_DIO3_11                    0x03
+
 typedef enum 
 {
    Sleep_mode	        = (unsigned char)0x00, 
