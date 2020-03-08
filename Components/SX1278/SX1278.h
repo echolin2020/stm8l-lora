@@ -167,7 +167,7 @@ typedef enum{rxOpen,txOpen}cmdpaType_t;
 
 
 
-extern unsigned char   recv[200];
+//extern unsigned char   recv[200];
 
 void SPI_SX1278_Init();
 
@@ -204,6 +204,7 @@ void Sx1278ReceiveModeEnable(void);
 void Sx1278CADReceiveModeEnable(void);
 void Sx1278SleepModeEnable(void);
 void Sx1278InteruptHandler(void);
+bool MessageProcess(__IO unsigned char* message);
 long SX1276GetFeiValue();
 
 unsigned char RF_SPI_READ_BYTE();

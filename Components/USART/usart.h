@@ -15,8 +15,8 @@
 
 /*¶¨Òå´®¿Ú*/
 #define USART_GPIO_PORT  GPIOC  
-#define TXD_GPIO_PINS  GPIO_Pin_5  
-#define RXD_GPIO_PINS  GPIO_Pin_6
+#define TXD_GPIO_PINS  GPIO_Pin_3  
+#define RXD_GPIO_PINS  GPIO_Pin_2
 #define CS_GPIO_PINS   GPIO_Pin_4
 
 #define Gpio_485_RX3_En()	do{GPIO_ResetBits(USART_GPIO_PORT,CS_GPIO_PINS);}while(0)

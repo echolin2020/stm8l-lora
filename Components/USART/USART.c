@@ -51,8 +51,7 @@ RxD  配置成输入上拉无中断模式
    
    
        GPIO_Init(USART_GPIO_PORT, TXD_GPIO_PINS, GPIO_Mode_Out_PP_High_Fast); 
-       GPIO_Init(USART_GPIO_PORT, RXD_GPIO_PINS, GPIO_Mode_In_PU_No_IT);
-       GPIO_Init(USART_GPIO_PORT, CS_GPIO_PINS, GPIO_Mode_Out_PP_High_Slow);
+       GPIO_Init(USART_GPIO_PORT, RXD_GPIO_PINS, GPIO_Mode_In_FL_No_IT);
    
 /*        
 	SYSCFG_REMAPDeInit();//引脚复用功能
@@ -71,16 +70,15 @@ RxD  配置成输入上拉无中断模式
        
       
  
-    USART_Init(USART1,(uint32_t)9600,USART_WordLength_8b,USART_StopBits_1,USART_Parity_No,USART_Mode_Tx | USART_Mode_Rx);//设置USART参数115200，8N1，接收/发送
+    USART_Init(USART1,(uint32_t)115200,USART_WordLength_8b,USART_StopBits_1,USART_Parity_No,USART_Mode_Tx | USART_Mode_Rx);//设置USART参数115200，8N1，接收/发送
    
     USART_ClearITPendingBit(USART1, USART_IT_RXNE);
     // USART_ITConfig(USART1, USART_IT_OR, ENABLE);      
    // USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
-   USART_ITConfig(USART1, USART_IT_IDLE, ENABLE);
+   USART_ITConfig(USART1, USART_IT_IDLE, DISABLE);
   //  USART_ITConfig (USART1,USART_IT_TC,ENABLE);//使能接收中断,中断向量号为28
     USART_Cmd (USART1,ENABLE);//使能USART
     
-    Gpio_485_RX3_En();
 }
 //初始化串口
 void Usart1_clear_init (void)
@@ -98,12 +96,10 @@ void Usart1_clear_init (void)
 
 void USART_SendByte(u8 data)
 {
-      Gpio_485_TX3_En();// 设置为发送模式
 	 USART_SendData8(USART1,(unsigned char)data);
 	
 	// 等待传输结束 
 	while (USART_GetFlagStatus (USART1,USART_FLAG_TXE) == RESET);
-         Gpio_485_RX3_En();//设置接收模式
 }
 
 /*******************************************************************************
@@ -115,14 +111,12 @@ void USART_SendByte(u8 data)
 
 void USART_SendStr(unsigned char *Str) 
 {
-       Gpio_485_TX3_En();// 设置为发送模式
         while(*Str!=0)//不为结束
         {
             USART_SendData8(USART1,*Str);     //发送数据 
             while(!USART_GetFlagStatus (USART1,USART_FLAG_TXE));//等待发送完毕
             Str++;//下一个数据
         }
-        Gpio_485_RX3_En();//设置接收模式
 }
 
 
@@ -138,7 +132,6 @@ void USART_SendStr(unsigned char *Str)
 void USART_SendString(u8* Data,u16 len)
 {
 	u16 i=0;
-        Gpio_485_TX3_En();// 设置为发送模式
 	for(; i < len; i++)
 	{
            // 等待传输结束 
@@ -147,7 +140,6 @@ void USART_SendString(u8* Data,u16 len)
          }
         delay_ms(5);    
        while (USART_GetFlagStatus (USART1,USART_FLAG_TC) == RESET);
-        Gpio_485_RX3_En();//设置接收模式
 }
 
 /*******************************************************************************

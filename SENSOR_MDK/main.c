@@ -25,15 +25,16 @@ All rights send
 #include "sprintf.h"
 #include "stm8l15x_exti.h"
 #include "SX1278.h"
+#include "main.h"
 
 
-void HardWare_Init(void);  
-void SX1278_SEND(void);//SX1278发送函数
+
 
 
 int main(void)
 {
     disableInterrupts();
+    Usart_Init();
     GPIO_Init(GPIOE, GPIO_Pin_7, GPIO_Mode_Out_PP_Low_Fast);
     GPIO_Init(GPIOC, GPIO_Pin_7, GPIO_Mode_Out_PP_Low_Fast);
     GPIO_Init(GPIOC, GPIO_Pin_1, GPIO_Mode_In_FL_IT);
@@ -46,21 +47,16 @@ int main(void)
     //RTC_Config();//启动低功耗
     HardWare_Init();
     PWR_UltraLowPowerCmd(ENABLE);//超低功耗
-    
+    //enableInterrupts(); //开启总中断  
     while(1)
 	{
-         disableInterrupts();
-         Sx1278InteruptHandler();
-         enableInterrupts(); //开启总中断  
-         halt();//进入低功耗
-         //wfi();
-         //RTC_ClearITPendingBit(RTC_IT_WUT); 
-         
-         //RTC_WakeUpCmd(ENABLE);            
+          //disableInterrupts();
+         Sx1278InteruptHandler(); 
+         enableInterrupts(); //开启总中断 
+         SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);
+         halt();//进入低功耗          
 	}
 }
-
-
 
 
 void HardWare_Init(void)
@@ -71,17 +67,17 @@ void HardWare_Init(void)
 }
 
 
-
-
 void SX1278_SEND(void)
 {     GPIO_SetBits(GPIOE, GPIO_Pin_7);
       HardWare_Init();
-      u8  si4432_Send[128] = {"hello world hello lora hello world hello lorahello world hello lora hello world hello lorahello world hello lora"};//test
-      //SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器 
+      u8  si4432_Send[128] = {"hello world hello lora hello world hello lorahello world hello lora hello world hello"};//test
       Sx1278SendPacket(si4432_Send, 128);
-//      SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器
-//      SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);//清零所有标志位，所有的DIOx口都恢复低电平     
-//      SX1276LoRaSetOpMode(Receiver_mode);   
-//      GPIO_ResetBits(GPIOE, GPIO_Pin_7);
+}
+
+void SX1278_SENDECHO(void)
+{     GPIO_SetBits(GPIOE, GPIO_Pin_7);
+      HardWare_Init();
+      u8  si4433_Send[128] = {"echo hello world hello lora hello world hello lorahello world hello lora hello world"};//test
+      Sx1278SendPacket(si4433_Send, 128);
 }
 

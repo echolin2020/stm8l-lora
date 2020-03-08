@@ -14,6 +14,7 @@ Copyright (C)  SoSharp  河南兵峰电子科技有限公司
 All rights send                                                                      
 ******************************************************************************************/
 #include "SX1278.h"
+#include "main.h"
 
 unsigned char   Frequency[3]       = {0x6c,0x80,0x00};//434MH 频率设置
 //unsigned char   Frequency[3]       = {0x6c,0xa5,0x00};//434MH 频率设置
@@ -21,10 +22,11 @@ unsigned char   power_data[8]      = {0X80,0X80,0X80,0X83,0X86,0x89,0x8c,0x8f};/
 unsigned char   SpreadingFactor[6] = {7,8,9,10,11,12};         //扩频因子7-12
 unsigned char   CodingRate[4]      = {1,2,3,4};                //1-4
 unsigned char   Bw_Frequency[10]   = {0,1,2,3,4,5,6,7,8,9};    //带宽0-9//7.8KHz,10.4KHz,15.6KHz,20.8KHz,31.2KHz,41.7KHz,62.5KHz,125KHz,250KHz,500KHz
-unsigned char   recv[200];
+__IO unsigned char   recv[200];
 unsigned char   RF_EX0_STATUS;
 unsigned char   CRC_Value;
 unsigned char   SX1278_RLEN;
+  __IO bool jump=FALSE;
 
 
 /******************************************************************************
@@ -516,7 +518,7 @@ void Sx1278LoRaInit(void)
     SPIWriteOneByteToAddress(REG_LR_DIOMAPPING1,GPIO_VARE_1);//写入0x40寄存器，DIO引脚映射设置，设为00
     SPIWriteOneByteToAddress(REG_LR_DIOMAPPING2,GPIO_VARE_2);//写入0x41寄存器
     Version = SPIReadOneByteFromAddress(REG_LR_VERSION);//读取版本号
-    //SX1276LoRaSetRFFrequency();                          //频率设置
+    SX1276LoRaSetRFFrequency();                          //频率设置
     SX1276LoRaSetRFPower(7);                             //设置发射功率为最大  直接赋值0xFF 设置为最大发射功率
     //SX1276LoRaSetSpreadingFactor(SpreadingFactor[0]);	 //扩频因子设置   {7,8,9,10,11,12}; 扩频因子7-12
     SX1276LoRaSetSpreadingFactor(7);
@@ -580,27 +582,7 @@ void Sx1278SendPacket(unsigned char *data,unsigned char len)
     SPIWriteOneByteToAddress(REG_LR_DIOMAPPING1,0x40);   //设置0x40寄存器为0100 0000b，即设置发射完成指示映射到DIO0引脚
     SPIWriteOneByteToAddress(REG_LR_DIOMAPPING2,0x00);    
     SX1276LoRaSetOpMode(Transmitter_mode);                         //进入传输模式
-    
-    
-//    while(1)
-//    {
-//        RF_EX0_STATUS = SPIReadOneByteFromAddress(REG_LR_IRQFLAGS);
-//        if((RF_EX0_STATUS&0x08) == 0x08)
-//        {
-//            //发射完成后，应设置为接收模式，才能收到信号
-//            SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, RF_EX0_STATUS|0x08);
-////            SX1276LoRaSetOpMode(Stdby_mode);
-////            SPIWriteOneByteToAddress(REG_LR_IRQFLAGSMASK,IRQN_RXD_Value);      //打开接收中断
-////            SPIWriteOneByteToAddress(REG_LR_HOPPERIOD,   PACKET_MIAX_Value);//0x24寄存器，设置频率跳变周期最大
-////            SPIWriteOneByteToAddress(REG_LR_DIOMAPPING1, 0X00);//端口映射恢复默认
-////            SPIWriteOneByteToAddress(REG_LR_DIOMAPPING2, 0x00);
-////            SX1276LoRaSetOpMode(Receiver_mode);
-//            break;
-//        }
-//    }
-    
-    
-   // SPIReadDataFromFIFO(recv,16);                       //测试发送的数据是？？？？？？？
+
 }
 /******************************************************************************
 * 函数名    : Sx1278ReceiveModeEnable
@@ -669,15 +651,17 @@ void Sx1278SleepModeEnable(void)
 * 返回值    : 无
 ******************************************************************************/
 void Sx1278InteruptHandler(void)
-{//RegIrqFlags的八位依次为： RxTimeout, RxDone, PayloadCrcError,ValidHeader, TxDone, CadDone, FhssChangeChannel, CadDetected.
+{
+
+  //RegIrqFlags的八位依次为： RxTimeout, RxDone, PayloadCrcError,ValidHeader, TxDone, CadDone, FhssChangeChannel, CadDetected.
   RF_EX0_STATUS = SPIReadOneByteFromAddress(REG_LR_IRQFLAGS); //读取0x12寄存器，中断标志寄存器
     if((RF_EX0_STATUS&0x40) == 0x40)//接收完成
     {
-        SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);//清零所有标志位，所有的DIOx口都恢复低电平
-        
+        SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);//清零所有标志位，所有的DIOx口都恢复低电平       
         CRC_Value = SPIReadOneByteFromAddress(REG_LR_MODEMCONFIG2);
         if(CRC_Value&0x04 == 0x04)//是否CRC校验完成
         {
+            
             SPIWriteOneByteToAddress(REG_LR_FIFOADDRPTR,0x00);//设置SPI接口在FIFO缓冲区中的地址指针
             SX1278_RLEN = SPIReadOneByteFromAddress(REG_LR_NBRXBYTES);//读取最后一个包的字节数
             SPI_ENABLE();//开启时钟
@@ -690,18 +674,25 @@ void Sx1278InteruptHandler(void)
                 
             }
             USART_SendString(recv,SX1278_RLEN);
+            USART_SendData8(USART1,0x0D);
+            USART_SendData8(USART1,0x0A);
             gSwitchEnStatus(enClose); //NSS = 1;   
-            SPI_DISABLE();//关闭始终
-        }       
-        SX1276LoRaSetOpMode(Stdby_mode);
-        SPIWriteOneByteToAddress(REG_LR_IRQFLAGSMASK, IRQN_RXD_Value);      //打开接收中断
-        //SPIWriteOneByteToAddress(REG_LR_HOPPERIOD,    PACKET_MIAX_Value);//0x24寄存器，设置频率跳变周期最大
-        SPIWriteOneByteToAddress(REG_LR_HOPPERIOD,    0);
-        SPIWriteOneByteToAddress(REG_LR_DIOMAPPING1, 0X00);//端口映射恢复默认
-        SPIWriteOneByteToAddress(REG_LR_DIOMAPPING2, 0x00);	
-        SX1276LoRaSetOpMode(Receiver_mode);
-        if(recv[0]=='h' && recv[1]=='e'){
-          GPIO_ToggleBits(GPIOC, GPIO_Pin_7);
+            //SPI_DISABLE();//关闭始终
+            GPIO_ToggleBits(GPIOE, GPIO_Pin_7);
+            MessageProcess(recv);
+//            if(jump == TRUE){
+//              goto lable;
+//            }
+        }
+        if(jump == FALSE)
+        {
+            SX1276LoRaSetOpMode(Stdby_mode);
+            SPIWriteOneByteToAddress(REG_LR_IRQFLAGSMASK, IRQN_RXD_Value);      //打开接收中断
+            //SPIWriteOneByteToAddress(REG_LR_HOPPERIOD,    PACKET_MIAX_Value);//0x24寄存器，设置频率跳变周期最大
+            SPIWriteOneByteToAddress(REG_LR_HOPPERIOD,    0);
+            SPIWriteOneByteToAddress(REG_LR_DIOMAPPING1, 0X00);//端口映射恢复默认
+            SPIWriteOneByteToAddress(REG_LR_DIOMAPPING2, 0x00);	
+            SX1276LoRaSetOpMode(Receiver_mode);
         }
     }
     else if((RF_EX0_STATUS&0x08) == 0x08)//发送完成
@@ -754,6 +745,21 @@ void Sx1278InteruptHandler(void)
       SPIWriteOneByteToAddress(REG_LR_IRQFLAGS, 0xff);//清零所有标志位，所有的DIOx口都恢复低电平
     }
 }
+
+bool MessageProcess(__IO unsigned char* message)
+{
+     if(message[0]=='h' && message[1]=='e')
+     {
+       GPIO_ToggleBits(GPIOC, GPIO_Pin_7);
+     }else if(message[0]=='e' && message[1]=='c')
+     {
+       GPIO_ToggleBits(GPIOE, GPIO_Pin_7);
+       SX1278_SENDECHO();
+       jump=TRUE;
+       return TRUE;
+     }
+}
+
 
 /*--------------------------------------------------------------------------------------------------------
                    									   0ooo
